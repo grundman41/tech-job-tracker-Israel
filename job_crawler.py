@@ -271,6 +271,7 @@ NON_JOB_URL_PATTERNS = re.compile(
     r"|/all-jobs/"
     r"|/all_jobs/"
     r"|/alljobs"
+    r"|alljobs\.co\.il/employer/"   # AllJobs employer landing pages list many roles, they are not a posting
     r"|/career-opportunities/students-internship"
     r"|developer-zone|developer_zone|developers|documentation|/docs/|/blog/|/resources/|/community/|/about/(?!careers)|/contact/|/news/"
     r")",
@@ -1677,7 +1678,9 @@ def main():
         # --- STAGE 3: High-Precision Small-Batch AI Verification ---
         if ai_ready_candidates:
             print(f"\n=== STAGE 3: Precision Batch AI Verification ({len(ai_ready_candidates)} jobs) ===")
-            batch_size = 4
+            # Each batch is one Gemini request. Larger batches = far fewer requests (the first run took ~2h at 4),
+            # at the cost of a longer prompt per request. Configurable: "ai_batch_size" in config.json.
+            batch_size = max(1, min(12, int(RAW_CONFIG.get("ai_batch_size", 8))))
             batches = [ai_ready_candidates[i:i + batch_size] for i in range(0, len(ai_ready_candidates), batch_size)]
             print(f"[*] Grouped into {len(batches)} batches of up to {batch_size} jobs each.\n")
 
@@ -1691,6 +1694,14 @@ def main():
                     key = job["job_key"]
                     if ev and ev.get("approved") and ev.get("experience_level") != "senior":
                         entry = build_entry(job, ev)
+                        # The AI can approve a posting whose own detected city is outside allowed_cities
+                        # (it is often discovered only in the full description). Re-check deterministically.
+                        if location_verdict(job.get("registry_name", job["company"]), entry["location"]) == "reject":
+                            stage_counts["ai_rejected"] += 1
+                            reason = f"location outside allowed cities: {entry['location']}"
+                            remember_rejection(eval_cache, key, job, "post_ai_location", reason)
+                            print(f"  [X] REJECTED: {job['company']} - {job['title']} (Reason: {reason})")
+                            continue
                         confirmed_new_jobs.append(entry)
                         seen_jobs.append(entry)
                         seen_keys.add(key)

@@ -274,3 +274,12 @@ def test_data_and_finance_rank_below_core_roles():
                                    "Operations Intern", "משרת סטודנט/ית לתפעול", "מתמחה בתפעול"])
 def test_student_and_intern_roles_are_rejected(title):
     assert not jc.ProfileTitleFilter(_profile("iem_saas_ops")).matches(title)
+
+
+@pytest.mark.parametrize("url", [
+    "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=367437",
+    "https://www.drushim.co.il/companies/1234/",
+])
+def test_employer_landing_pages_are_not_jobs(url):
+    assert ji.classify_non_job("Technical Product Manager", url) == "company_profile_page"
+    assert not jc.looks_like_job_url(url) if hasattr(jc, "looks_like_job_url") else True

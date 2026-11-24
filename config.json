@@ -2,6 +2,7 @@
   "schema_version": 2,
   "active_profile": "iem_saas_ops",
   "gemini_model": "gemini-3.5-flash-lite",
+  "ai_batch_size": 8,
   "profiles": {
     "iem_product_operations": {
       "min_yoe": 0,

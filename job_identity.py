@@ -287,7 +287,8 @@ NON_JOB_URL_RULES = [
     ("search_results_page", re.compile(r"searchresults|/search\?|[?&]search=|[?&]q=|/jobs/search/|/jobs/q-", re.I)),
     ("category_landing_page", re.compile(r"/jobslobby/(?![\w\-]+/[\w\-]+/\d+)|/categories/|/category/|nisha\.co\.il/positions/[\w\-]+/?$|/job_cat/", re.I)),
     ("program_or_portal_page", re.compile(r"pathways-programs|/career-opportunities/students-internship|/early-careers/?$|/students/?$", re.I)),
-    ("company_profile_page", re.compile(r"linkedin\.com/company/|linkedin\.com/in/", re.I)),
+    ("company_profile_page", re.compile(r"linkedin\.com/company/|linkedin\.com/in/|"
+                                        r"alljobs\.co\.il/employer/|drushim\.co\.il/companies?/", re.I)),
 ]
 NON_JOB_TITLE_RULES = [
     ("article_or_guide", re.compile(r"מדריך|הכשרות|טיפים|איך להצליח|ה-?AI לא יחליף", re.I)),

@@ -192,8 +192,10 @@
     "display_title": "FP&A Business Partner, Finance",
     "raw_title": "FP&A Business Partner, Finance",
     "location_token": "petah tikva",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "location outside allowed cities"
+    ],
     "duplicate_of": null,
     "experience_level": "explicit_junior",
     "experience_evidence": "בוגר",
@@ -682,8 +684,10 @@
     "display_title": "Technical Product Manager",
     "raw_title": "Technical  Product Manager",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "company_profile_page"
+    ],
     "duplicate_of": null,
     "experience_level": "stretch_2_plus",
     "experience_evidence": "לפחות 2 שנות ניסיון בתחומי ניתוח פיננסי",
@@ -962,8 +966,10 @@
     "display_title": "Technical Product Manager",
     "raw_title": "Technical  Product Manager",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "company_profile_page"
+    ],
     "duplicate_of": null,
     "experience_level": "stretch_2_plus",
     "experience_evidence": "ניסיון בניהול פרויקטים בדיגיטל",
