@@ -105,6 +105,32 @@
       "registry_name": "Augury"
     },
     {
+      "company": "Bluevine",
+      "sector": "Fintech, Insurtech & Financial Operations",
+      "priority": "P1",
+      "company_website_candidate": "https://www.bluevine.com",
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
+      "target_job_titles": [
+        "Product Analyst",
+        "Business Operations Analyst",
+        "PMO Analyst",
+        "Implementation Specialist",
+        "Business Analyst"
+      ],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [
+        "official current Israel presence",
+        "current Israel job location",
+        "ATS/careers URL",
+        "job-level entry criteria"
+      ],
+      "company_key": "bluevine",
+      "registry_name": "Bluevine"
+    },
+    {
       "company": "Bringg",
       "sector": "AI, Product & Enterprise SaaS",
       "priority": "P1",
@@ -159,6 +185,21 @@
       "registry_name": "Buildots"
     },
     {
+      "company": "Capitolis",
+      "sector": "Recent M&A",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": true,
+      "verification_required": [],
+      "company_key": "capitolis",
+      "registry_name": "Capitolis"
+    },
+    {
       "company": "Check Point",
       "sector": "Cybersecurity, Cloud & Identity",
       "priority": "P1",
@@ -185,6 +226,21 @@
       "registry_name": "Check Point"
     },
     {
+      "company": "Classiq.io",
+      "sector": "Recent M&A",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": true,
+      "verification_required": [],
+      "company_key": "classiqio",
+      "registry_name": "Classiq.io"
+    },
+    {
       "company": "Corma",
       "sector": "User priority",
       "priority": "P1",
@@ -197,6 +253,32 @@
       "verified_open_role": false,
       "verification_required": [],
       "company_key": "corma",
+      "registry_name": null
+    },
+    {
+      "company": "Decart",
+      "sector": "AI Implementation, Analytics & Data Infrastructure",
+      "priority": "P1",
+      "company_website_candidate": "https://www.decart.ai",
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
+      "target_job_titles": [
+        "AI Solutions Consultant",
+        "Implementation Specialist",
+        "Product Analyst",
+        "Solutions Engineer",
+        "Business Analyst"
+      ],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [
+        "official current Israel presence",
+        "current Israel job location",
+        "ATS/careers URL",
+        "job-level entry criteria"
+      ],
+      "company_key": "decart",
       "registry_name": null
     },
     {
@@ -556,6 +638,32 @@
       "registry_name": "Navan Israel"
     },
     {
+      "company": "Nayax",
+      "sector": "Fintech, Insurtech & Financial Operations",
+      "priority": "P1",
+      "company_website_candidate": "https://www.nayax.com",
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
+      "target_job_titles": [
+        "Product Analyst",
+        "Business Operations Analyst",
+        "PMO Analyst",
+        "Implementation Specialist",
+        "Business Analyst"
+      ],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [
+        "official current Israel presence",
+        "current Israel job location",
+        "ATS/careers URL",
+        "job-level entry criteria"
+      ],
+      "company_key": "nayax",
+      "registry_name": "Nayax"
+    },
+    {
       "company": "Nofar Energy",
       "sector": "Renewables, Energy, Storage & Climate Infrastructure",
       "priority": "P1",
@@ -675,6 +783,21 @@
       ],
       "company_key": "payoneer",
       "registry_name": "Payoneer"
+    },
+    {
+      "company": "Perion",
+      "sector": "Recent M&A",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": true,
+      "verification_required": [],
+      "company_key": "perion",
+      "registry_name": "Perion"
     },
     {
       "company": "Salesforce Israel",
@@ -864,6 +987,21 @@
       ],
       "company_key": "unframe",
       "registry_name": "Unframe"
+    },
+    {
+      "company": "Varonis",
+      "sector": "Recent M&A",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Recent M&A and actively hiring (user-supplied market post, Nov 2026).",
+      "evidence_urls": [],
+      "verified_open_role": true,
+      "verification_required": [],
+      "company_key": "varonis",
+      "registry_name": "Varonis"
     },
     {
       "company": "Via",
@@ -1981,32 +2119,6 @@
       "registry_name": "Navina"
     },
     {
-      "company": "Nayax",
-      "sector": "Fintech, Insurtech & Financial Operations",
-      "priority": "P2",
-      "company_website_candidate": "https://www.nayax.com",
-      "verified_careers_url": null,
-      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
-      "target_job_titles": [
-        "Product Analyst",
-        "Business Operations Analyst",
-        "PMO Analyst",
-        "Implementation Specialist",
-        "Business Analyst"
-      ],
-      "why_relevant": "Quantitative decision-making, regulated processes, product operations and scale.",
-      "evidence_urls": [],
-      "verified_open_role": false,
-      "verification_required": [
-        "official current Israel presence",
-        "current Israel job location",
-        "ATS/careers URL",
-        "job-level entry criteria"
-      ],
-      "company_key": "nayax",
-      "registry_name": "Nayax"
-    },
-    {
       "company": "Netafim",
       "sector": "Agritech, Water & Sustainable Manufacturing",
       "priority": "P2",
@@ -2963,32 +3075,6 @@
       "registry_name": null
     },
     {
-      "company": "Bluevine",
-      "sector": "Fintech, Insurtech & Financial Operations",
-      "priority": "P3",
-      "company_website_candidate": "https://www.bluevine.com",
-      "verified_careers_url": null,
-      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
-      "target_job_titles": [
-        "Product Analyst",
-        "Business Operations Analyst",
-        "PMO Analyst",
-        "Implementation Specialist",
-        "Business Analyst"
-      ],
-      "why_relevant": "Quantitative decision-making, regulated processes, product operations and scale.",
-      "evidence_urls": [],
-      "verified_open_role": false,
-      "verification_required": [
-        "official current Israel presence",
-        "current Israel job location",
-        "ATS/careers URL",
-        "job-level entry criteria"
-      ],
-      "company_key": "bluevine",
-      "registry_name": "Bluevine"
-    },
-    {
       "company": "Caja Robotics",
       "sector": "Mobility, Robotics & Industrial Tech",
       "priority": "P3",
@@ -3196,32 +3282,6 @@
         "job-level entry criteria"
       ],
       "company_key": "did",
-      "registry_name": null
-    },
-    {
-      "company": "Decart",
-      "sector": "AI Implementation, Analytics & Data Infrastructure",
-      "priority": "P3",
-      "company_website_candidate": "https://www.decart.ai",
-      "verified_careers_url": null,
-      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
-      "target_job_titles": [
-        "AI Solutions Consultant",
-        "Implementation Specialist",
-        "Product Analyst",
-        "Solutions Engineer",
-        "Business Analyst"
-      ],
-      "why_relevant": "Strong intersection of AI delivery, business problems, data, and technical stakeholder management.",
-      "evidence_urls": [],
-      "verified_open_role": false,
-      "verification_required": [
-        "official current Israel presence",
-        "current Israel job location",
-        "ATS/careers URL",
-        "job-level entry criteria"
-      ],
-      "company_key": "decart",
       "registry_name": null
     },
     {
