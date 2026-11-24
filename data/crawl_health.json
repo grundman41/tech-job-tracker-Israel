@@ -1,7 +1,3766 @@
 {
   "schema_version": 1,
-  "sources": {},
-  "runs": [],
-  "last_run": null,
+  "sources": {
+    "Akamai Technologies": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:19+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Alice (Formerly ActiveFence)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:19+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:19+00:00"
+    },
+    "adMaven": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:19+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:19+00:00"
+    },
+    "AI21 Labs": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:19+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:19+00:00"
+    },
+    "Aidoc": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:19+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:19+00:00"
+    },
+    "Agora": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:19+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:19+00:00"
+    },
+    "AllCloud": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:20+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:20+00:00"
+    },
+    "Accenture Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:20+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "abra": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:21+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:21+00:00"
+    },
+    "AllJobs - אנליסט עסקי": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:24+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 25,
+      "last_success_at": "2026-11-24T13:51:24+00:00"
+    },
+    "AllJobs - Business Analyst": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:24+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 25,
+      "last_success_at": "2026-11-24T13:51:24+00:00"
+    },
+    "AllJobs - PMO": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:25+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 18,
+      "last_success_at": "2026-11-24T13:51:25+00:00"
+    },
+    "AllJobs - Customer Success": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:25+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 18,
+      "last_success_at": "2026-11-24T13:51:25+00:00"
+    },
+    "AllJobs - Solutions Engineer": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:26+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 16,
+      "last_success_at": "2026-11-24T13:51:26+00:00"
+    },
+    "AllJobs - הנדסת תעשייה וניהול": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:26+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 13,
+      "last_success_at": "2026-11-24T13:51:26+00:00"
+    },
+    "AllJobs - Product Manager": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:26+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 33,
+      "last_success_at": "2026-11-24T13:51:26+00:00"
+    },
+    "AllJobs - יועץ ארגוני": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:27+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:27+00:00"
+    },
+    "AllJobs - ייעוץ ניהולי": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:27+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:27+00:00"
+    },
+    "AllJobs - Operations": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:27+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 16,
+      "last_success_at": "2026-11-24T13:51:27+00:00"
+    },
+    "AllJobs - בוגר תעשייה וניהול": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:28+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 12,
+      "last_success_at": "2026-11-24T13:51:28+00:00"
+    },
+    "AllJobs - מהנדס תעשייה וניהול": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:28+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 12,
+      "last_success_at": "2026-11-24T13:51:28+00:00"
+    },
+    "Aman Group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:28+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:28+00:00"
+    },
+    "Altshuler Shaham": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:29+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "Alpha Omega": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:29+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:29+00:00"
+    },
+    "Amazon": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:29+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 7,
+      "last_success_at": "2026-11-24T13:51:29+00:00"
+    },
+    "AllJobs - מיישם מערכות": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:30+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 27,
+      "last_success_at": "2026-11-24T13:51:30+00:00"
+    },
+    "Anzu": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:30+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:30+00:00"
+    },
+    "apollo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:30+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:30+00:00"
+    },
+    "Amdocs": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:30+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "AllJobs - מנהל מוצר": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 27,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "apple": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "AllJobs - פיתוח עסקי": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 12,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "AllJobs - מנהל פרויקטים": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 28,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "Anodot": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "AppsFlyer": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 9,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "arplus (Startup)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectionError",
+      "last_candidates": 0
+    },
+    "Artlist": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Aqua Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "Amarel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:31+00:00"
+    },
+    "Applied Materials": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:31+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Armis": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "Astrix Security": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Atera": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Ben-Gurion University of the Negev": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectionError",
+      "last_candidates": 0
+    },
+    "Arbitrip": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "AllJobs - שרשרת אספקה": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "Augury": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "Axonius": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "Ardom Telecomputing": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "BigPanda": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "Bilton Tech": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:32+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:32+00:00"
+    },
+    "AllJobs - שיפור תהליכים": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 10,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Bluevoyant": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "biocatch": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "AllJobs - תכנון ובקרה": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 10,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "AT&T": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Bluevine": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Baran group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Better": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Bringg": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Boston Scientific": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Cambium": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Buildots": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Bria AI": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Bizzabo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Cadence Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Broadcom Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Capitolis": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "BDO": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "ChargeAfter": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "AllJobs - תפעול": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 15,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Cellebrite": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:33+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:33+00:00"
+    },
+    "Camtek": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Bringup": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Capow": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "CallMarker‎‏": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Buyme": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Bridgewise": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "checkmarx": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Claroty": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "commit": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Cato Networks": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Connecteam": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Coralogix": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Compie Technologies": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Crazy Labs": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Datwise": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "failed",
+      "last_reason": "LinkedIn profile/company page (direct outreach recommended)",
+      "last_candidates": 0
+    },
+    "Crusoe AI": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "CyberArk (Palo Alto Networks)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Daylight": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Cybereason": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Deep Instinct": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Deel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Classiq.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Dentsu": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "failed",
+      "last_reason": "LinkedIn profile/company page (direct outreach recommended)",
+      "last_candidates": 0
+    },
+    "Depoint": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "failed",
+      "last_reason": "LinkedIn profile/company page (direct outreach recommended)",
+      "last_candidates": 0
+    },
+    "Dazz": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:34+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:34+00:00"
+    },
+    "Descope": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:35+00:00"
+    },
+    "co-impact": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:35+00:00"
+    },
+    "Cymotive Technologies": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:35+00:00"
+    },
+    "Deci AI": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:35+00:00"
+    },
+    "Dell": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:54:18+00:00",
+      "last_status": "ok",
+      "last_reason": "Recovered with Playwright",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:54:18+00:00"
+    },
+    "Dig": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "Comblack": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:35+00:00"
+    },
+    "CBC ISRAEL": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:35+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:35+00:00"
+    },
+    "Dialog": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:36+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 12,
+      "last_success_at": "2026-11-24T13:51:36+00:00"
+    },
+    "duda": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:36+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:36+00:00"
+    },
+    "Cyera": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:36+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 9,
+      "last_success_at": "2026-11-24T13:51:36+00:00"
+    },
+    "deloitte": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:36+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:36+00:00"
+    },
+    "Earnix": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:36+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:36+00:00"
+    },
+    "Cisco": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:36+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:36+00:00"
+    },
+    "Engineering Software Lab (ESL)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: SSLError",
+      "last_candidates": 0
+    },
+    "Drushim - מהנדס תעשייה וניהול": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "Drushim - Customer Success": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 8,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "Drushim - מנהל מוצר": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 11,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "EverC (part of G2 Risk Solutions)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "Drushim - PMO": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 7,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "eBay Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Drushim - מנהל פרויקטים": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 10,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "Drushim - תפעול": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:37+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 9,
+      "last_success_at": "2026-11-24T13:51:37+00:00"
+    },
+    "eToro": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Facetrom": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Drushim - אנליסט עסקי": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 6,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Fireblocks": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Fetcherr": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Fabric": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Firefly Neuroscience": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Forter": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "FLEX": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Explorium": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Check Point": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 9,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Firefly": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Fundbox": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Faye": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Gloat": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Gett": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:54:18+00:00",
+      "last_status": "ok",
+      "last_reason": "Recovered with Playwright",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:54:18+00:00"
+    },
+    "Experis (Manpower)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "EnergyTeam": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:38+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:38+00:00"
+    },
+    "Global-e": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Freightos": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Fullpath": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Fiverr": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Gong.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Google": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "G-stat": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Google (page 2)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "EY ISRAEL": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "group 19": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Haat": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Google (page 3)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:39+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:39+00:00"
+    },
+    "Granulate (Intel)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "hailo.ai": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "Healthee": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "high lander": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "GotFriends": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "Gavish": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "Hippo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "Extreme": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "HoneyBook": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "hiBob": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 10,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "HP Indigo": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Hunters": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "haifa university": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:40+00:00"
+    },
+    "Habana Labs (Intel)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "IBM": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:40+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Hyro": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Innoviz": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "intel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Imagry": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Intuition Robotics": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "ICL Group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "intuit": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Humanz": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "inManage": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "HMS - Halperin Consulting Group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Iron community": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Island": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Jedify": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "JFrog": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "jifiti": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Jit": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectionError",
+      "last_candidates": 0
+    },
+    "Harel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "Kaltura": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Isracard": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:41+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:41+00:00"
+    },
+    "JET (Just Eat Takeaway) - 10bis": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "KLA": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Ironsource (Unity)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Kendago": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "Legit Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "Komodor": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "Lightricks": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "Lemonade": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "LinearB": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "linkedin": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "jobmaster": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "Lendbuzz": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:42+00:00"
+    },
+    "Kornit Digital": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:42+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 502",
+      "last_candidates": 0
+    },
+    "Lusha": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:43+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:43+00:00"
+    },
+    "LiveU": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:43+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:43+00:00"
+    },
+    "Lumenis": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:43+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:43+00:00"
+    },
+    "Malam Team": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:43+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Manpower": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:43+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:43+00:00"
+    },
+    "Justt": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:44+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:44+00:00"
+    },
+    "M:AD": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:44+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:44+00:00"
+    },
+    "Marvell Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:44+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Mastercard": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:44+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "maccabi health": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:44+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:44+00:00"
+    },
+    "Manufacturers Association of Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:45+00:00"
+    },
+    "Medtronic": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "MatchPointIT": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:45+00:00"
+    },
+    "Log-On Software": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "MEMO Global": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectionError",
+      "last_candidates": 0
+    },
+    "Melio": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:45+00:00"
+    },
+    "matrix": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:45+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "Maof Group (cps הייטק)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Meta": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 400",
+      "last_candidates": 0
+    },
+    "Harel Insurance & Finance": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Mesh Payments": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Mixtiles": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Elad Software Systems": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ReadTimeout",
+      "last_candidates": 0
+    },
+    "Moon Active": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Moovit": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Logica-it": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 23,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Morphisec": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "failed",
+      "last_reason": "LinkedIn profile/company page (direct outreach recommended)",
+      "last_candidates": 0
+    },
+    "monday.com": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:46+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:46+00:00"
+    },
+    "Microsoft": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Moveo group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Moveo source": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "morning (Green Invoice)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Mobileye": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "My Heritage": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Mgroup": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Ms Bit": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Nayax": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Natural Intelligence": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Menora Mivtachim": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Navan Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Next Insurance": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "Nexxen": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:47+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:47+00:00"
+    },
+    "NextSilicon": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Navina": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "nice": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "NeuReality": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "nilus": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Nova": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Nanox.vision": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "nsKnox": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Novu": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Noname Security": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Mertens (Malamteam)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Ness": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Oasis Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Obligo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Gtech": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Optimove": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Nvidia": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Nuvei Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Orca Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Oracle Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Outbrain ( teads )": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Pagaya": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:48+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:48+00:00"
+    },
+    "Nisha Group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "Overwolf": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "OMC cloud": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "Papaya Global": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "ORS": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "Partner company": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "failed",
+      "last_reason": "LinkedIn profile/company page (direct outreach recommended)",
+      "last_candidates": 0
+    },
+    "Payoneer": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "Pango": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "One technologies": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:49+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:49+00:00"
+    },
+    "Pecan AI": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Peax software (EMET group)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Papaya Gaming": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Pentera": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Perion": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Paragon": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 5,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Personetics": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Permit.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Pinecone": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Pillar Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "PayPal Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Optibus": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "PivotHR": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "Horizon Technologies (EMET group)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "PointFive": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:50+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:50+00:00"
+    },
+    "playtika": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Plus500": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "philips": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Prelysis": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "PlainID": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "PwC Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "opisoft": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 18,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Port": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Palantir Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Rapyd": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Qualcomm Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Redis": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Qualitest": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Red Hat": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Phoenix Insurance": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:51+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:51+00:00"
+    },
+    "Radware": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:52+00:00"
+    },
+    "Riskified": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:52+00:00"
+    },
+    "Rewire": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:52+00:00"
+    },
+    "Run:ai": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "KPMG": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ReadTimeout",
+      "last_candidates": 0
+    },
+    "Prologic": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:52+00:00"
+    },
+    "Riverside": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:52+00:00"
+    },
+    "SAP Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "RSecurity": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:52+00:00"
+    },
+    "SB0": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "SciPlay": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:52+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Schemathics": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Rony Come": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "SentinelOne": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Retama Software Solutions": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "ServiceNow Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Sapiens": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Samsung": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Rayzon group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Sierra": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Ribbon communications": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Sisense": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Silk": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "SimilarWeb LTD": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 8,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "SITE 123": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Salesforce": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Snyk": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "SHVA": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:53+00:00"
+    },
+    "Speedata": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:53+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "Marketeam": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectTimeout",
+      "last_candidates": 0
+    },
+    "SodaStream": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Stratasys": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Sunbit": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "SolarEdge": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Silverfort": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Sweet Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Superplay": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Sygnia": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Sony Semiconductor Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "Swimm": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Spines": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Taboola": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "Sheba hospital": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Synopsys Israel": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "tech19": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "failed",
+      "last_reason": "LinkedIn profile/company page (direct outreach recommended)",
+      "last_candidates": 0
+    },
+    "Strauss Group": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 247",
+      "last_candidates": 0
+    },
+    "Stampli": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:54+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:54+00:00"
+    },
+    "SVT.jobs": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:55+00:00"
+    },
+    "Tango": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:55+00:00"
+    },
+    "TeraCyte": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:55+00:00"
+    },
+    "Pantera": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectionError",
+      "last_candidates": 0
+    },
+    "Titan": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Team8": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:55+00:00"
+    },
+    "Taldor Consultants": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: SSLError",
+      "last_candidates": 0
+    },
+    "Shavit Software": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:55+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:55+00:00"
+    },
+    "Tap": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Torq": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Transmit Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Tipalti": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Tel Aviv Stock Exchange": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Tabit": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "tower": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Tufin": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Travelier (Bookaway)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "TytoCare": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Unframe": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Unit": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "TriEye": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "upwind": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "VAST Data": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "TSG IT Advanced Systems": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Unilink Ltd": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Varonis": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Verint": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Valens": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "TikTok": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Tranzila": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "Teva": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "VIA": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "WeDev": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:56+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:56+00:00"
+    },
+    "Wiliot": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Velocity": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Walnut": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "vcita": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Wing Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "webz.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Western Digital Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Wonderful": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 5,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "wolt": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Yotpo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Wiz": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Zafran Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Zap group": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Zesty": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Yad2": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 404",
+      "last_candidates": 0
+    },
+    "ZIM": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Union group": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "WalkMe": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 4,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Zeiss": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Zencity": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Voyantis": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "youcc": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "yael group": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP error 502",
+      "last_candidates": 0
+    },
+    "Finout": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Matia": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "WINT Water Intelligence": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "WSC Sports": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:57+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:57+00:00"
+    },
+    "Bluewhite": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Zota": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Datarails": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Guesty": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "ThetaRay": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Electreon": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Ecoppia": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Doral Energy": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "K Health": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "CropX": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Groundcover": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "QuantHealth": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Trigo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Enlight Renewable Energy": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "StoreDot": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Nofar Energy": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Tomorrow.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Healthy.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Vayyar Imaging": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "failed",
+      "last_reason": "Client-side rendered SPA (requires JS/browser)",
+      "last_candidates": 0
+    },
+    "Logz.io": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Alta": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Apiiro": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Arbe Robotics": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "WEKA": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "ZutaCore": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:58+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:58+00:00"
+    },
+    "Netafim": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "UBQ Materials": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "DriveNets": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 11,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Eleos Health": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "D-ID": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Eon": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Elementor": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Imagene AI": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Irregular": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "H2Pro": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Eco Wave Power": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Wix": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 5,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "GenCell": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Nano Dimension": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Noma Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 3,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "MeMed": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:51:59+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:51:59+00:00"
+    },
+    "Foretellix": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "PayEm": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Orchid Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Guardio": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 2,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Firebolt": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Salt Security": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "BionicHIVE": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Phinergy": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 403)",
+      "last_candidates": 0
+    },
+    "Remepy": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Massivit 3D": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Qodo": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Teads (formerly Outbrain)": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Scopio Labs": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Xsight Labs": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "failed",
+      "last_reason": "Blocked by server (HTTP 429)",
+      "last_candidates": 0
+    },
+    "Tastewise": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Sentra": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "SQream": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "TIPA": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "ATS API scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Notch": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "Siemens Israel": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:00+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:00+00:00"
+    },
+    "חברת בינת bynet software": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:01+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 0,
+      "last_success_at": "2026-11-24T13:52:01+00:00"
+    },
+    "Gauzy": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:02+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:52:02+00:00"
+    },
+    "Recruitx": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:52:03+00:00",
+      "last_status": "failed",
+      "last_reason": "Network exception: ConnectTimeout",
+      "last_candidates": 0
+    },
+    "Shikun & Binui Energy": {
+      "consecutive_failures": 0,
+      "last_checked_at": "2026-11-24T13:52:06+00:00",
+      "last_status": "ok",
+      "last_reason": "Scrape successful",
+      "last_candidates": 1,
+      "last_success_at": "2026-11-24T13:52:06+00:00"
+    },
+    "LinkedIn (guest search)": {
+      "consecutive_failures": 1,
+      "last_checked_at": "2026-11-24T13:54:21+00:00",
+      "last_status": "failed",
+      "last_reason": "HTTP 429",
+      "last_candidates": 0
+    }
+  },
+  "runs": [
+    {
+      "started_at": "2026-11-24T13:51:19+00:00",
+      "finished_at": "2026-11-24T16:12:29+00:00",
+      "profile": "iem_saas_ops",
+      "sources": 472,
+      "sources_failed": 91,
+      "watchlist": {
+        "watchlist": 208,
+        "tagged_registry": 112,
+        "extra_sources": 64,
+        "skipped_unverified": 31,
+        "skipped_schedule": 0,
+        "skipped_excluded": 1
+      },
+      "candidates_collected": 684,
+      "skipped": {
+        "already_seen": 0,
+        "recently_rejected": 0,
+        "duplicate_in_run": 25,
+        "excluded_company": 0
+      },
+      "new_candidates": 659,
+      "stages": {
+        "prefilter_rejected": 219,
+        "no_description": 0,
+        "ai_rejected": 85,
+        "ai_unconfirmed": 308
+      },
+      "new_jobs": 47,
+      "seen_jobs_before": 0,
+      "seen_jobs_after": 47,
+      "sources_failing_3plus_runs": 0
+    }
+  ],
+  "last_run": {
+    "started_at": "2026-11-24T13:51:19+00:00",
+    "finished_at": "2026-11-24T16:12:29+00:00",
+    "profile": "iem_saas_ops",
+    "sources": 472,
+    "sources_failed": 91,
+    "watchlist": {
+      "watchlist": 208,
+      "tagged_registry": 112,
+      "extra_sources": 64,
+      "skipped_unverified": 31,
+      "skipped_schedule": 0,
+      "skipped_excluded": 1
+    },
+    "candidates_collected": 684,
+    "skipped": {
+      "already_seen": 0,
+      "recently_rejected": 0,
+      "duplicate_in_run": 25,
+      "excluded_company": 0
+    },
+    "new_candidates": 659,
+    "stages": {
+      "prefilter_rejected": 219,
+      "no_description": 0,
+      "ai_rejected": 85,
+      "ai_unconfirmed": 308
+    },
+    "new_jobs": 47,
+    "seen_jobs_before": 0,
+    "seen_jobs_after": 47,
+    "sources_failing_3plus_runs": 0
+  },
   "alerts": []
 }

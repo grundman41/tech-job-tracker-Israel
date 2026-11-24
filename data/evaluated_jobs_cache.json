@@ -1,4 +1,3045 @@
 {
   "schema_version": 1,
-  "entries": {}
+  "entries": {
+    "ats:greenhouse:aidocmedical/5034843101": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: Minimum 5 years of",
+      "company": "Aidoc",
+      "title": "Senior AI Platform Product Manager",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5034843101",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:greenhouse:aidocmedical/4868634101": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Aidoc",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/4868634101",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8886010": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5–7 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "הראל מגייסת אנליסט/ית מחקר לחטיבת ההשקעות!",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8886010",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "fb:6783d4231d80ee24a936": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 8 שנים",
+      "company": "AllJobs",
+      "title": "הראל מגייסת אנליסט/ית מחקר לחטיבת ההשקעות!",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=70365",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "fb:72c1c90dc256a858fda9": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "אנליסט/ית סחר לחברה יזמית מובילה בתחום האנרגיה המתחדשת",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=359881",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8892293": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנים",
+      "company": "AllJobs",
+      "title": "אנליסט/ית",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8892293",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8890318": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-10 שנים",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים למחלקת BRM - חטיבת הטכנולוגיות",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8890318",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "fb:edde382ab94aa3b2093f": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 8 שנים",
+      "company": "AllJobs",
+      "title": "אנחנו מגייסים Business DATA Analyst לאגף או\"ש",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=70365",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8893909": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "senior business analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8893909",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8881651": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 years of experience",
+      "company": "AllJobs",
+      "title": "Business Development Analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8881651",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8883168": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: at least 5 years of experience",
+      "company": "AllJobs",
+      "title": "technical business analyst - job id 2697",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8883168",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8906848": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: at least 5 years of experience",
+      "company": "AllJobs",
+      "title": "technical business analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8906848",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8881626": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-8 years of",
+      "company": "AllJobs",
+      "title": "Finance Analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8881626",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8893487": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: at least 5 years of experience",
+      "company": "AllJobs",
+      "title": "bw implementation - 2650",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8893487",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8674898": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 7 שנים",
+      "company": "AllJobs",
+      "title": "לקבוצת LUDANTECH דרוש/ה PMO",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8674898",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8902063": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "תמחירן/נית ראשי/ת לחטיבת הבנייה הציבורית (PMO)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8902063",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8896210": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "PMO -Cloud & Services",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8896210",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8899287": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5–7 years of experience",
+      "company": "AllJobs",
+      "title": "Senior Project Manager / PMO",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8899287",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "fb:d8419648502932ff5b68": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Customer Success Leader לחברה מובילה בתחום האנרגיה המתחדשת",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=359881",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8895800": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "AllJobs",
+      "title": "Customer Success Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8895800",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8785656": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "AllJobs",
+      "title": "Customer Success Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8785656",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8861011": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "AllJobs",
+      "title": "Customer Success Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8861011",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8890719": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 8 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Customer Success Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8890719",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8899219": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Enterprise Customer Success Manager TLV",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8899219",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8903337": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "AI Solutions Engineer להובלת פיתוח פתרונות AI חדשניים",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8903337",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8908639": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of experience",
+      "company": "AllJobs",
+      "title": "solutions engineer",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8908639",
+      "checked_at": "2026-11-24T13:57:31+00:00"
+    },
+    "ats:alljobs:8902924": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "Solution Engineer",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8902924",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8912716": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of experience",
+      "company": "AllJobs",
+      "title": "ai solutions engineer",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8912716",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8892751": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת מצוינות תפעולית למרכז הלוגיסטי של אסם נסטלה - 4374",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8892751",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:b1f96c2a54a23b93e9a3": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:רמת השופט / מיקום המשרה:קרית גת",
+      "company": "AllJobs",
+      "title": "מנהל/ת מצוינות תפעולית למרכז הלוגיסטי של אסם נסטלה - 4374",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=26877",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8536973": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5+ שנים",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8536973",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:f98d491f9ab335ec1fae": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=39570",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8913207": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8913207",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:d08290a4b8ee85041406": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=62301",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8899439": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 8+ שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8899439",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:3ab6d10f0fdfcc9b35fd": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 6 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=81041",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8843047": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8843047",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:9b7d44e3b56e6e8bdec3": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=281605",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8903568": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנים",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8903568",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8902149": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Senior Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8902149",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8847424": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 7 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "אנחנו מגייסים מנהל מוצר לתחום הענן",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8847424",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8859679": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל מוצרי AI",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8859679",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8651703": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Excellence Lead /Product Operations",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8651703",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8900277": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8900277",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8895803": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Senior Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8895803",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8907241": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of",
+      "company": "AllJobs",
+      "title": "senior Product Manager - b2c",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8907241",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8879636": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of hands-on",
+      "company": "AllJobs",
+      "title": "Senior Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8879636",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8910761": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 + years of experience",
+      "company": "AllJobs",
+      "title": "strategic Product Manager -2575",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8910761",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8859243": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "AllJobs",
+      "title": "Senior Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8859243",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8860917": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "AllJobs",
+      "title": "Cloud Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8860917",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8915313": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "senior Product Manager - devices segmentation",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8915313",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8913809": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "Senior Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8913809",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8913808": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of experience",
+      "company": "AllJobs",
+      "title": "Senior Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8913808",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8901893": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-10 שנים",
+      "company": "AllJobs",
+      "title": "לחברת תוכנה דרוש/ה Business Operations Manager!",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8901893",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8680348": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 10 שנים",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים לשיפור ביצועים בחברות וארגונים",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8680348",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:89030776778fecf353b0": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:מספר מקומותנתניהראשון לציוןאשדודאשקלוןנס ציונה / נתניהראשון לציוןאשדודאשקלוןנס ציונה",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים לשיפור ביצועים בחברות וארגונים",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=127293",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:8fc3e20a87652def1c26": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:מספר מקומותנחףמעלות תרשיחאכרמיאלעכוקרית אתא / נחףמעלות תרשיחאכרמיאלעכוקרית אתא",
+      "company": "AllJobs",
+      "title": "כתר מוצרים לבית ולגינה",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=217270",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8863622": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנים",
+      "company": "AllJobs",
+      "title": "HRBP Operations",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8863622",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8912777": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "operations manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8912777",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8913744": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Service Operations Specialist",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8913744",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8884692": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 -7 years hands-on",
+      "company": "AllJobs",
+      "title": "operations & support",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8884692",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8892492": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10+ years of",
+      "company": "AllJobs",
+      "title": "Camera Hardware System Engineering Program Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8892492",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:amazon:3200095": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 8+ years of",
+      "company": "Amazon",
+      "title": "Sr GTM SSA Analytics, EMEA GTM Data and AI Specialists Solutions Architecture",
+      "url": "https://www.amazon.jobs/en/jobs/3200095/sr-gtm-ssa-analytics-emea-gtm-data-and-ai-specialists-solutions-architecture",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8885029": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "לחברה מובילה דרוש/ה מיישם/ת מערכות מידע ומפתח/ת!!",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8885029",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8726481": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מיישם/ת SAP HANA | ארגון ביטחוני מוביל באזור המרכז",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8726481",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:3d136e5776c45d997392": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מיישם/ת SAP HANA | ארגון ביטחוני מוביל באזור המרכז",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=30325",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:c66c8186a5f20315f60c": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:כרמיאל / מיקום המשרה:חיפה",
+      "company": "AllJobs",
+      "title": "מיישם/ת Priority לחברה מובילה ב",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=344087",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8861315": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנים",
+      "company": "AllJobs",
+      "title": "מיישם/ת Microsoft 365",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8861315",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:e15e20cb438caa85e0dc": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מיישם/ת Microsoft 365",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=151960",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8911903": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנים",
+      "company": "AllJobs",
+      "title": "מיישם/ת מערכות Creatio",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8911903",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8843428": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מיישם/ת ERP Infor M3 - למפעל תעשייתי יצרני",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8843428",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8893861": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מיישם/ת ומנהל/ת פרויקטים תקשוביים לגן שורק",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8893861",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8903427": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל.ת מוצר",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8903427",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8888190": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 7 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר | פתרונות דיגיטליים לעסקים | רמת גן - היברידי (3 ימים מהבית)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8888190",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:dfeb3b4949f05717a5c4": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:מספר מקומותכרמיאליקנעםחיפהקרית ביאליקחדרה / כרמיאליקנעםחיפהקרית ביאליקחדרה",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר | פתרונות דיגיטליים לעסקים | רמת גן - היברידי (3 ימים מהבית)",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=318323",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8908933": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Technical Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8908933",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:976b8732345f144aedcf": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: עכוחיפהקרית אתאקרית מוצקיןקרית ביאליק / עכוחיפהקרית אתאקרית מוצקיןקרית ביאליק",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר טכנולוגי/ת - Platforms Digital Products",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=260879",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8901851": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8901851",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8865670": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8865670",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8907262": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8907262",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8862771": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 + שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8862771",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8864376": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Product Manager (Mid-Level)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8864376",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8881077": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 7 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר דאטה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8881077",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8876323": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 7 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהלת מוצר דיגיטלי",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8876323",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:apple:200695656-0865": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "apple",
+      "title": "SW Engineering Program Manager",
+      "url": "https://jobs.apple.com/en-il/details/200695656-0865/sw-engineering-program-manager?team=SFTWR",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:3b260d12563af903e585": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:מספר מקומותרעננההוד השרוןראש העיןפתח תקווהאריאל / רעננההוד השרוןראש העיןפתח תקווהאריאל",
+      "company": "AllJobs",
+      "title": "מנהל.ת פיתוח עסקי",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=1015",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8886227": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנים",
+      "company": "AllJobs",
+      "title": "לקבוצת רב-בריח דרוש/ה מנהל/ת תפעול מכירות ובקרה בצריפין",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8886227",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8863856": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "Business Development Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8863856",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8899386": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7–15 years of",
+      "company": "AllJobs",
+      "title": "Senior Business Development – Public Safety & HLS",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8899386",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8863193": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "AllJobs",
+      "title": "Business Development Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8863193",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8895320": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years",
+      "company": "AllJobs",
+      "title": "strategy & ops senior lead",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8895320",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8911347": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8911347",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:bb79a8beacf124bbbed9": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=39570",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:cdb71a9bf47b36ccf466": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנים",
+      "company": "AllJobs",
+      "title": "מנהל.ת פרויקטים לארגון מוביל",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=194893",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8843778": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים בפיתוח מנוסה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8843778",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:e8b68dbb7df26ae1d052": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים בפיתוח מנוסה",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=90589",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8913931": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל פרויקטים טכנולוגיים לארגון מוביל",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8913931",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8813638": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל.ת פרוייקטים טכנולוגיים",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8813638",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:cd9873ea44936983bf06": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל.ת פרוייקטים טכנולוגיים",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=214794",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8863171": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AllJobs",
+      "title": "Project Manager (PMP)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8863171",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8906470": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: minimum of 5 years of",
+      "company": "AllJobs",
+      "title": "Project Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8906470",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8883604": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת תחום ניהול פרויקטים ותכניות עבודה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8883604",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8901835": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AllJobs",
+      "title": "senior Project Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8901835",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8864763": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: At least 7 years of experience",
+      "company": "AllJobs",
+      "title": "Senior Project Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8864763",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8881367": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-7 years of experience",
+      "company": "AllJobs",
+      "title": "Project Manager for Products",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8881367",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8896016": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Delivery Project Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8896016",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8611963002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AppsFlyer",
+      "title": "Senior FP&A Analyst",
+      "url": "https://careers.appsflyer.com/jobs/position/8611963002?gh_jid=8611963002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8611961002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "AppsFlyer",
+      "title": "Senior FP&A Business Partner",
+      "url": "https://careers.appsflyer.com/jobs/position/8611961002?gh_jid=8611961002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8882905002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years hands-on",
+      "company": "AppsFlyer",
+      "title": "Senior IT Infrastructure Operations",
+      "url": "https://careers.appsflyer.com/jobs/position/8882905002?gh_jid=8882905002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8855377002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AppsFlyer",
+      "title": "Senior PR&D Program Manager",
+      "url": "https://careers.appsflyer.com/jobs/position/8855377002?gh_jid=8855377002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8938973002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AppsFlyer",
+      "title": "Senior Product Manager",
+      "url": "https://careers.appsflyer.com/jobs/position/8938973002?gh_jid=8938973002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8874566002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "AppsFlyer",
+      "title": "Senior Product Manager",
+      "url": "https://careers.appsflyer.com/jobs/position/8874566002?gh_jid=8874566002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:e3726043de05268e92fc": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:מספר מקומותקרית מלאכיקרית גתאשקלוןשדרותבאר שבע / קרית מלאכיקרית גתאשקלוןשדרותבאר שבע",
+      "company": "AllJobs",
+      "title": "נר ניהול ותפעול פרוייקטים",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=181501",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8044523003": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Axonius",
+      "title": "Senior AI Product Manager",
+      "url": "https://www.axonius.com/company/careers/open-jobs?gh_jid=8044523003",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8197333003": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Axonius",
+      "title": "Senior Technical Account Manager",
+      "url": "https://www.axonius.com/company/careers/open-jobs?gh_jid=8197333003",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:a0b4745bd1cd13b53fc7": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of hands-on",
+      "company": "Bilton Tech",
+      "title": "Senior Product Manager",
+      "url": "https://careers.bilton.tech/jobs/8021116-senior-product-manager",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:6eb090a2c18d8f1feab1": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "Product Excellence Lead /Product Operations",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=39570",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:1b058d13fec45dbce2c4": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:מספר מקומותחרישקיסריהחדרהפרדס חנה כרכור / חרישקיסריהחדרהפרדס חנה כרכור",
+      "company": "AllJobs",
+      "title": "מהנדס/ת פרויקטים, הנדסה ומצוינות תפעולית",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=336841",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:lever:a2f27fbe-d746-45e1-9219-58b165e7597b": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of hands-on",
+      "company": "biocatch",
+      "title": "Web Solutions Engineer",
+      "url": "https://jobs.lever.co/biocatch/a2f27fbe-d746-45e1-9219-58b165e7597b",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:3134399610fedd25cd8b": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: שוהםבאר יעקבראשון לציוןנס ציונהרחובות / שוהםבאר יעקבראשון לציוןנס ציונהרחובות",
+      "company": "AllJobs",
+      "title": "י.ש גליל הקמת פרויקטים בע\"מ",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=348909",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:d47b0d442182a9c0493c": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: At least 5 years of experience",
+      "company": "AllJobs",
+      "title": "ראש.ת תחום ניהול פרויקטים בייצור",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=47510",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8907011": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-8 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "לחברת יזמות אמריקאית מנהל/ת חטיבת בינוי פרויקטים - ניהול רוחבי של מנהלי הפרויקטים בחברה J6",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8907011",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:ae8369207f0ed15a4d63": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-7 years of",
+      "company": "Bizzabo",
+      "title": "Strategic FP&A Manager",
+      "url": "https://www.bizzabo.com/careers",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8813316": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "אחראי/ת תפעול לתחום אוספים מיוחדים בספריה הלאומית",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8813316",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8845065": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת יחידה תפעולית - ענף הבנייה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8845065",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:175e165daac2afd15acf": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מודיעין מכבים רעותבית שמשירושליםמעלה אדומים / מודיעין מכבים רעותבית שמשירושליםמעלה אדומים",
+      "company": "AllJobs",
+      "title": "מנהל/ת יחידה תפעולית - ענף הבנייה",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=262425",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:c8ee6ad730c67a399caf": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: מיקום המשרה:ראשון לציון / מיקום המשרה:ראשון לציון",
+      "company": "AllJobs",
+      "title": "למרכז לוגיסטי מתקדם באזור השרון דרוש/ה מנהל/ת תפעול",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=10121",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:alljobs:8727757": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "AllJobs",
+      "title": "מנהל/ת תפעול ומוצר - חטיבת הרכב- Business Operations & Product Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8727757",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:bridgewise:44.576": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Bridgewise",
+      "title": "Funds & ETF Expert Analyst",
+      "url": "https://www.comeet.com/jobs/bridgewise/F9.009/funds--etf-expert-analyst/44.576",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:bridgewise:14.575": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Bridgewise",
+      "title": "Investment Strategy Analyst",
+      "url": "https://www.comeet.com/jobs/bridgewise/F9.009/investment-strategy-analyst/14.575",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:44f83040cdb39b3b87bd": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "commit",
+      "title": "Senior Project Manager",
+      "url": "https://www.comm-it.com/jobs/senior-project-manager",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:ashby:e2b175b1-71ad-4e91-952d-a2e9d913098c": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of experience",
+      "company": "Crusoe AI",
+      "title": "Staff Technical Program Manager",
+      "url": "https://jobs.ashbyhq.com/Crusoe/e2b175b1-71ad-4e91-952d-a2e9d913098c",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:daylightsecurity/4379921009": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Daylight",
+      "title": "Senior Product Manager",
+      "url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4379921009",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:783432307b048b462034": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Classiq.io",
+      "title": "Senior AI Product Manager - Agentic Systems",
+      "url": "https://www.classiq.io/positions/position-22_f66?t=1795124553682",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:30b546715dd60ab7a668": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Classiq.io",
+      "title": "Senior Product Manager",
+      "url": "https://www.classiq.io/positions/position-01_478",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:ff3d78685bc4367b9e9a": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Classiq.io",
+      "title": "Senior Technical Product Manager",
+      "url": "https://www.classiq.io/positions/position-a0_571",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:01a8ef25db7911748b55": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנות ניסיון",
+      "company": "Dialog",
+      "title": "מנהל מוצר חומרה",
+      "url": "https://www.dialog.co.il/high-tech/jobs/hardware/product-hardware",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:f7234928b5cc6c2341ad": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנות ניסיון",
+      "company": "Dialog",
+      "title": "מנהל פרויקט חומרה",
+      "url": "https://www.dialog.co.il/high-tech/jobs/hardware/pm",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:5fdeb8d930ddc01ade5c": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7 שנות ניסיון",
+      "company": "Dialog",
+      "title": "Security Analyst",
+      "url": "https://www.dialog.co.il/high-tech/jobs/research/security-analyst",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:a54d7f069108117bd996": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנות",
+      "company": "Dialog",
+      "title": "מיישם",
+      "url": "https://www.dialog.co.il/high-tech/jobs/data/implementer",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:15726f306d732ef95936": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנות ניסיון",
+      "company": "Dialog",
+      "title": "מנהל פרוייקט מ.מידע",
+      "url": "https://www.dialog.co.il/high-tech/jobs/data/project-manager",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:0e5380d2e3e8f5c19e75": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10 שנות ניסיון",
+      "company": "Dialog",
+      "title": "ניהול פרויקט מכונות",
+      "url": "https://www.dialog.co.il/high-tech/jobs/mechanical-engineering/pm",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:7879384003": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "duda",
+      "title": "Senior Product Manager",
+      "url": "https://www.duda.co/careers/7879384003?gh_jid=7879384003",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:cyera:4F.47E": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Cyera",
+      "title": "Senior Data Analyst",
+      "url": "https://www.comeet.com/jobs/cyera/17.008/senior-data-analyst/4F.47E",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:cyera:A5.865": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years experience",
+      "company": "Cyera",
+      "title": "Senior Product Manager",
+      "url": "https://www.comeet.com/jobs/cyera/17.008/senior-product-manager/A5.865",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:cyera:53.579": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "Cyera",
+      "title": "Technical Account Manager",
+      "url": "https://www.comeet.com/jobs/cyera/17.008/technical-account-manager/53.579",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:drushim:38992867": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-6 שנים",
+      "company": "Drushim",
+      "title": "מנהל/ת פרויקטים",
+      "url": "https://www.drushim.co.il/job/38992867/d73d4f2c/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:forter/8878373002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Forter",
+      "title": "Senior Product Manager – Chargeback Recovery & Dispute Management",
+      "url": "https://job-boards.greenhouse.io/forter/jobs/8878373002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:smartrecruiters:744000163091879": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of experience",
+      "company": "Check Point",
+      "title": "Professional Services Consultant",
+      "url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000163091879",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:fullpath:BD.17B": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "Fullpath",
+      "title": "Senior Product Manager - CDP",
+      "url": "https://www.fullpath.com/careers/co/israel-tel-aviv/BD.17B/senior-product-manager-cdp/all/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:d6b8520e382e345b22be": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: At least 5 years of",
+      "company": "Fiverr",
+      "title": "Senior Product Manager",
+      "url": "https://www.fiverr.com/jobs/QUIuQjYw",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:gongio/4728203006": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Gong.io",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.greenhouse.io/gongio/jobs/4728203006",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:google:101953699919602374": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 years of experience",
+      "company": "Google",
+      "title": "Product Manager, Waze",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/101953699919602374-product-manager-waze?location=Israel",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:google:127214683215012550": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 years of experience",
+      "company": "Google",
+      "title": "Senior Intelligence Analyst, GTIG Intel Delivery",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/127214683215012550-senior-intelligence-analyst-gtig-intel-delivery?location=Israel&page=3",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:gotfriends:155306": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "GotFriends",
+      "title": "Senior Product Manager סטארט-אפ סייבר בתחום ה־ Identity",
+      "url": "https://www.gotfriends.co.il/jobslobby/projects/product-manager/155306/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:gotfriends:155336": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "GotFriends",
+      "title": "Senior Product Manager בחברת סייבר בתחום ה-Identity Security",
+      "url": "https://www.gotfriends.co.il/jobslobby/projects/product-manager/155336/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:2267b76706574f71d64d": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10+ years",
+      "company": "hiBob",
+      "title": "Finops Lead",
+      "url": "https://hibob-fa0ad69d0cb34a.careers.hibob.com/jobs/faa5807c-2256-4e74-9f3f-7e15e083d667",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:79d99842a187d310c278": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: At least 5 years of",
+      "company": "hiBob",
+      "title": "Technical Program Manager",
+      "url": "https://hibob-fa0ad69d0cb34a.careers.hibob.com/jobs/54598811-7807-4f0e-bfdd-0c0e7ed4d253",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:85d4da47c0f9d6d01b14": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "hiBob",
+      "title": "AI Platform Product Manager",
+      "url": "https://hibob-fa0ad69d0cb34a.careers.hibob.com/jobs/7f8b464c-f0b0-43a7-8092-f10515206edd",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:b8764f3b2a970bb09b5c": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "hiBob",
+      "title": "Senior AI Ops Engineer",
+      "url": "https://hibob-fa0ad69d0cb34a.careers.hibob.com/jobs/295c2faa-bf71-4700-8c1e-6bf7a6eac8a6",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8104833": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7-10 years of experience",
+      "company": "JFrog",
+      "title": "IS Product Manager",
+      "url": "https://join.jfrog.com/job/?job=8104833&gh_jid=8104833",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8312052": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5–8 years\nof",
+      "company": "JFrog",
+      "title": "Senior Financial Analyst",
+      "url": "https://join.jfrog.com/job/?job=8312052&gh_jid=8312052",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:d61490d8b0463d109f38": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Justt",
+      "title": "Enterprise Customer Success Manager TLV",
+      "url": "https://justt.ai/job/enterprise-customer-success-manager-tlv/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:c93fd3c01962f4a8f457": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of experience",
+      "company": "Mesh Payments",
+      "title": "Account Manager, Mid-market and Enterprise",
+      "url": "https://meshpayments.com/careers/account-manager-mid-market-and-enterprise/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:e609f3220e39468b3f39": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-8 years of",
+      "company": "Mesh Payments",
+      "title": "Senior Product Manager",
+      "url": "https://meshpayments.com/careers/senior-product-manager/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:ashby:5bac5848-00ce-446c-a17f-3effaf80f4cd": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: At least 6 years of",
+      "company": "Moon Active",
+      "title": "FP&A Analyst",
+      "url": "https://jobs.ashbyhq.com/moonactive/5bac5848-00ce-446c-a17f-3effaf80f4cd",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:f8ed73f8831181ea0ebf": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: לפחות 5 שנים",
+      "company": "Logica-it",
+      "title": "מנהל.ת פרויקטים ומנתח.ת מערכות לתחום ניהול וזימון תורים ניהול פרויקטים",
+      "url": "https://logica-it.com/jobs/21193/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:c0c222be41bb5082dfcf": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5 שנות ניסיון",
+      "company": "Logica-it",
+      "title": "Artificial intelligence – Product Manager ניהול מוצר",
+      "url": "https://logica-it.com/jobs/17801/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:68b76eed8ed9116e4aeb": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7 שנות ניסיון",
+      "company": "Logica-it",
+      "title": "Business Digital Product Manager ניהול מוצר",
+      "url": "https://logica-it.com/jobs/17800/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:lever:461ba53a-1ea9-4dac-a213-0a34c3b77d6e": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5-7 years of experience",
+      "company": "Mobileye",
+      "title": "Execution Program Manager",
+      "url": "https://jobs.eu.lever.co/mobileye/461ba53a-1ea9-4dac-a213-0a34c3b77d6e",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:lever:bfee467c-d620-41fd-803e-ae9846568ef6": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Mobileye",
+      "title": "Senior Product Manager - Autonomous Urban Driving",
+      "url": "https://jobs.eu.lever.co/mobileye/bfee467c-d620-41fd-803e-ae9846568ef6",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:lever:0dfdcb44-5d96-4700-bd9a-c89eeeef1061": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Mobileye",
+      "title": "US ADAS/AD Business Development Manager - Relocation to Detroit",
+      "url": "https://jobs.eu.lever.co/mobileye/0dfdcb44-5d96-4700-bd9a-c89eeeef1061",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:6250364004": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Orca Security",
+      "title": "Senior Product Manager",
+      "url": "https://orca.security/about/careers/6250364004?gh_jid=6250364004",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:pagayais/7731816003": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: At least 5 years experience",
+      "company": "Pagaya",
+      "title": "Senior Product Manager",
+      "url": "https://job-boards.greenhouse.io/pagayais/jobs/7731816003",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8382958": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years\nof",
+      "company": "Payoneer",
+      "title": "Senior Product Manager - Security (replacement)",
+      "url": "https://www.payoneer.com/careers/position/8382958/?gh_jid=8382958",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:3999096": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "Payoneer",
+      "title": "Senior Product Manager",
+      "url": "https://www.payoneer.com/careers/position/3999096/?gh_jid=3999096",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:be6b54fe2ff34b59c980": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Pecan AI",
+      "title": "Product Product Manager",
+      "url": "https://www.pecan.ai/careers/career-job/product-manager/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:pentera:3C.179": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "Pentera",
+      "title": "Cloud Product Manager",
+      "url": "https://pentera.io/careers/co/israel/3C.179/cloud-product-manager/all/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:pentera:79.D6D": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years of",
+      "company": "Pentera",
+      "title": "Senior Product Manager",
+      "url": "https://pentera.io/careers/co/israel/79.D6D/senior-product-manager/all/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:paragon:92.B51": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Paragon",
+      "title": "Account Manager",
+      "url": "https://www.comeet.com/jobs/paragon/76.006/account-manager/92.B51",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:paragon:45.57A": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: minimum of 5 years of",
+      "company": "Paragon",
+      "title": "Treasury Analyst",
+      "url": "https://www.comeet.com/jobs/paragon/76.006/treasury-analyst/45.57A",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:personetics:4E.B64": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Personetics",
+      "title": "Product Manager - Engage",
+      "url": "https://personetics.com/us/careers/co/tel-aviv-israel/4E.B64/product-manager-engage/all/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8874141002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Riskified",
+      "title": "Payments Product Manager",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8874141002",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:e120f438c4a68e3bd7b7": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years experience",
+      "company": "Riverside",
+      "title": "Senior Product Manager",
+      "url": "https://careers.riverside.com/careers/senior-product-manager",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:similarweb/8281070": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "SimilarWeb LTD",
+      "title": "Senior Product Manager, AI-Native Platform",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8281070",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:workday:salesforce/JR350080": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10+ years of",
+      "company": "Salesforce",
+      "title": "Senior Forward Deployed Engineer, Hebrew Speaking",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Israel---Tel-Aviv/Forward-Deployed-Engineer_JR350080",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:silverfort:A0.477": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of",
+      "company": "Silverfort",
+      "title": "Product Manager- AI Platform",
+      "url": "https://www.comeet.com/jobs/silverfort/54.007/product-manager--ai-platform/A0.477",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:sweetsecurity/5044458101": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Sweet Security",
+      "title": "Technical Customer Success Manager",
+      "url": "https://job-boards.eu.greenhouse.io/sweetsecurity/jobs/5044458101",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:spines:4C.17F": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Spines",
+      "title": "Product Manager",
+      "url": "https://www.comeet.com/jobs/spines/2B.001/product-manager/4C.17F",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8278521": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Taboola",
+      "title": "Senior Product Manager",
+      "url": "https://www.taboola.com/careers/job/8278521?gh_jid=8278521",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:8273430": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Taboola",
+      "title": "Senior Product Manager",
+      "url": "https://www.taboola.com/careers/job/8273430?gh_jid=8273430",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:stampli:1D.76A": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 8+ years of experience",
+      "company": "Stampli",
+      "title": "Senior Product Manager, AI-Native Finance Innovation",
+      "url": "https://www.stampli.com/careers/co/tel-aviv/1D.76A/senior-product-manager-ai-native-finance-innovation/all/#1D.76A",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:unframe/5036373101": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Unframe",
+      "title": "Forward Deployed Engineer",
+      "url": "https://job-boards.eu.greenhouse.io/unframe/jobs/5036373101",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:upwind:CA.266": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "upwind",
+      "title": "Customer Success Manager",
+      "url": "https://www.upwind.io/careers/co/tel-aviv/CA.266/customer-success-manager/all",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:upwind:BA.04B": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: Minimum of 5 years of experience",
+      "company": "upwind",
+      "title": "Product Manager",
+      "url": "https://www.upwind.io/careers/co/tel-aviv/BA.04B/product-manager/all",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:44c04bff5a30914a6751": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ שנות ניסיון",
+      "company": "TSG IT Advanced Systems",
+      "title": "Project, Product & Implementation #2107 איש/אשת IT מפעל חלל תע”א מרכז 5 ימים בשבוע",
+      "url": "https://www.tsg.tech/careers/it-2107/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:aa6e8416e243e56ccaaa": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "Wiliot",
+      "title": "Product Manager",
+      "url": "https://www.wiliot.com/positions/position-14_079",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:29240b37919eba3a7fa4": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10+ years of",
+      "company": "Wiliot",
+      "title": "Senior Product Manager",
+      "url": "https://www.wiliot.com/positions/position-25-575",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:ashby:96753546-bd56-4081-a02b-0ad5d2aac01e": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Wonderful",
+      "title": "Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/wonderful/96753546-bd56-4081-a02b-0ad5d2aac01e",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:ashby:86ecca8f-eb3b-4082-b64d-e1cf98d25666": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Wonderful",
+      "title": "Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/wonderful/86ecca8f-eb3b-4082-b64d-e1cf98d25666",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:greenhouse:apiiro/7812494003": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years",
+      "company": "Apiiro",
+      "title": "Product Manager",
+      "url": "https://job-boards.greenhouse.io/apiiro/jobs/7812494003",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:B1.473": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of experience",
+      "company": "DriveNets",
+      "title": "Hardware Project Manager – AI Data Center",
+      "url": "https://drivenets.com/career/B1.473/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:5D.475": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "region: Raanana, Israel",
+      "company": "DriveNets",
+      "title": "PMO - Hardware",
+      "url": "https://drivenets.com/career/5D.475/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:AF.470": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years",
+      "company": "DriveNets",
+      "title": "Product Manager, AI Factories Orchestration, Agent Harness",
+      "url": "https://drivenets.com/career/AF.470/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:40.572": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 6+ years",
+      "company": "DriveNets",
+      "title": "Product Manager, AI Factories Spatial Planning Tool",
+      "url": "https://drivenets.com/career/40.572/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:90.57A": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of",
+      "company": "DriveNets",
+      "title": "Product Manager, Network Domain",
+      "url": "https://drivenets.com/career/90.57A/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:73.57B": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of",
+      "company": "DriveNets",
+      "title": "Project Manager Services - Network Automation",
+      "url": "https://drivenets.com/career/73.57B/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:9A.37C": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10+ years of",
+      "company": "DriveNets",
+      "title": "Senior Product Manager - Switch Network Operating System",
+      "url": "https://drivenets.com/career/9A.37C/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:6E.477": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 10+ years",
+      "company": "DriveNets",
+      "title": "Senior Product Manager, AI Factories Provisioning and Orchestration",
+      "url": "https://drivenets.com/career/6E.477/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:drivenets:B6.F5B": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of",
+      "company": "DriveNets",
+      "title": "Senior Solutions Engineer, AI/HPC Networking",
+      "url": "https://drivenets.com/career/B6.F5B/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:afcb4dd74dac3490436b": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5–7 years of experience",
+      "company": "D-ID",
+      "title": "Product Senior Product Manager",
+      "url": "https://apply.workable.com/j/A256513A9D",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:smartrecruiters:744000163397859": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Wix",
+      "title": "Product Manager - Base44",
+      "url": "https://jobs.smartrecruiters.com/Wix2/744000163397859",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:smartrecruiters:744000155710054": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of hands-on",
+      "company": "Wix",
+      "title": "IT Professional Services",
+      "url": "https://jobs.smartrecruiters.com/Wix2/744000155710054",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:2865e0eb99c88b453fe6": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Noma Security",
+      "title": "Product Operations Lead Senior",
+      "url": "https://noma.security/positions/position-e6_47f",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:c395089f0f26888f3256": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 7+ years of",
+      "company": "Noma Security",
+      "title": "Senior Product Manager Senior",
+      "url": "https://noma.security/positions/position-7c_167",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:fc23a8cf799034b02ed4": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Noma Security",
+      "title": "Product Manager Senior",
+      "url": "https://noma.security/positions/position-ab_366",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:fbdf3baf79735a0346da": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Guardio",
+      "title": "Technical Product Manager - Security",
+      "url": "https://guard.io/careers",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:gett:C2.47D": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of",
+      "company": "Gett",
+      "title": "Senior Product Manager, Mobile (Rider App)",
+      "url": "https://www.gett.com/careers/C2.47D/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "ats:comeet:gett:C8.E6A": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "prefilter",
+      "reason": "min_yoe: 5+ years of experience",
+      "company": "Gett",
+      "title": "Senior R&D Program Manager",
+      "url": "https://www.gett.com/careers/C8.E6A/",
+      "checked_at": "2026-11-24T13:57:32+00:00"
+    },
+    "fb:2a235e91737555bdc733": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is unspecified and cannot be verified to be within the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AI21 Labs",
+      "title": "Technical Project Manager – Post training",
+      "url": "https://www.ai21.com/careers/technical-project-manager-post-training/95.47D/",
+      "checked_at": "2026-11-24T13:58:14+00:00"
+    },
+    "ats:greenhouse:aidocmedical/5013115101": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires at least 4 years of proven experience in data science/analytics and heavy hands-on Python/SQL engineering work, exceeding the candidate's profile and stretching the upper limit of non-coding roles.",
+      "company": "Aidoc",
+      "title": "AI Solution Engineer",
+      "url": "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5013115101",
+      "checked_at": "2026-11-24T13:58:14+00:00"
+    },
+    "fb:aaf3ad99544bc2116d0e": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Located in Petah Tikva, which is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "abra",
+      "title": "AI Process & Systems Implementation Specialist",
+      "url": "https://www.abra-it.com/en/career/professional-services/ai-process-systems-implementation-specialist/",
+      "checked_at": "2026-11-24T13:58:14+00:00"
+    },
+    "ats:alljobs:8792017": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Explicitly located in Rishon LeZion and at a bank (Disdiscount Bank), both of which are strictly excluded by the search criteria.",
+      "company": "AllJobs",
+      "title": "אנליסט/ית אשראי בכיר/ה בחטיבה העסקית",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8792017",
+      "checked_at": "2026-11-24T13:58:14+00:00"
+    },
+    "ats:alljobs:8881138": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Ramat HaSharon, which is not in the allowed cities list (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AllJobs",
+      "title": "אנליסט/ית סחר לחברה יזמית מובילה בתחום האנרגיה המתחדשת",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8881138",
+      "checked_at": "2026-11-24T13:58:21+00:00"
+    },
+    "ats:alljobs:8912683": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Ramla, which is not in the allowed cities list.",
+      "company": "AllJobs",
+      "title": "כלכלן/ית",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8912683",
+      "checked_at": "2026-11-24T13:58:21+00:00"
+    },
+    "ats:alljobs:8914406": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Target role is credit/investment analysis (finance) which is lower priority or out of scope, and requires 3+ years of specific real estate finance/credit experience.",
+      "company": "AllJobs",
+      "title": "אנליסט/ית מחקר אשראי לא סחיר | אגף השקעות",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8914406",
+      "checked_at": "2026-11-24T14:00:50+00:00"
+    },
+    "ats:alljobs:8869542": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Ben Gurion Airport (קרית שדה התעופה), which is outside the allowed cities list.",
+      "company": "AllJobs",
+      "title": "אנליסט/ית עסק/ית",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8869542",
+      "checked_at": "2026-11-24T14:00:50+00:00"
+    },
+    "ats:alljobs:8895061": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3+ years of data analysis experience specifically within insurance (pension/provident funds/life insurance), which exceeds the candidate's background.",
+      "company": "AllJobs",
+      "title": "אנליסט.ית עסקי.ת",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8895061",
+      "checked_at": "2026-11-24T14:00:50+00:00"
+    },
+    "ats:alljobs:8805981": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Rishon LeZion (outside the allowed cities) and requires 3+ years of specific finance/credit experience.",
+      "company": "AllJobs",
+      "title": "אנליסט/ית ניהול פיננסי",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8805981",
+      "checked_at": "2026-11-24T14:04:13+00:00"
+    },
+    "ats:alljobs:8902416": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location Rishon LeZion is not in the allowed cities list.",
+      "company": "AllJobs",
+      "title": "We Are Hiring BI Analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8902416",
+      "checked_at": "2026-11-24T14:04:16+00:00"
+    },
+    "ats:alljobs:8907015": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location Petah Tikva is not in the allowed cities list (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AllJobs",
+      "title": "Customer Business Analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8907015",
+      "checked_at": "2026-11-24T14:08:12+00:00"
+    },
+    "ats:alljobs:8878797": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience, exceeding the candidate's ~2 years of experience.",
+      "company": "AllJobs",
+      "title": "data analyst",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8878797",
+      "checked_at": "2026-11-24T14:08:12+00:00"
+    },
+    "ats:alljobs:8845677": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is not in Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, or Herzliya (detected: אשדוד/בשפלה).",
+      "company": "AllJobs",
+      "title": "PMO לחברה יצרנית טכנולוגית בשפלה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8845677",
+      "checked_at": "2026-11-24T14:10:57+00:00"
+    },
+    "ats:alljobs:8850790": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is not in Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, or Herzliya (detected: נתניה).",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים טכנולוגיים בחברה ביטחונית באזור השרון",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8850790",
+      "checked_at": "2026-11-24T14:10:57+00:00"
+    },
+    "ats:alljobs:8870262": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is unspecified/מרכז, which does not guarantee the allowed cities for this specific posting.",
+      "company": "AllJobs",
+      "title": "PMO לחברה מצליחה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8870262",
+      "checked_at": "2026-11-24T14:10:57+00:00"
+    },
+    "ats:alljobs:8870332": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is not in Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, or Herzliya (detected: חצב).",
+      "company": "AllJobs",
+      "title": "PMO לחברה תעשייתית מצליחה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8870332",
+      "checked_at": "2026-11-24T14:10:57+00:00"
+    },
+    "ats:alljobs:8909627": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Jerusalem, which is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AllJobs",
+      "title": "מרכז/ת (pmo)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8909627",
+      "checked_at": "2026-11-24T14:11:31+00:00"
+    },
+    "ats:alljobs:8883866": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Jerusalem and requires 4+ years of experience plus management experience.",
+      "company": "AllJobs",
+      "title": "פרויקטור לביצוע (PMO / מנהל ממשקים )",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8883866",
+      "checked_at": "2026-11-24T14:11:31+00:00"
+    },
+    "ats:alljobs:8911670": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Ramat HaSharon, which is outside the allowed cities.",
+      "company": "AllJobs",
+      "title": "Customer Success Leader לחברה מובילה בתחום האנרגיה המתחדשת",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8911670",
+      "checked_at": "2026-11-24T14:11:31+00:00"
+    },
+    "ats:alljobs:8897231": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Kfar Saba, which is outside the allowed cities.",
+      "company": "AllJobs",
+      "title": "מחפשים את ה- Customer Success Manager הבא/ה שלנו!",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8897231",
+      "checked_at": "2026-11-24T14:11:31+00:00"
+    },
+    "ats:alljobs:8897249": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Petah Tikva, which is not in the allowed list of cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AllJobs",
+      "title": "מנהל/ת פרויקטים - Customer Success Leader",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8897249",
+      "checked_at": "2026-11-24T14:11:33+00:00"
+    },
+    "ats:alljobs:8909009": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience, exceeding the candidate's ~2 years.",
+      "company": "AllJobs",
+      "title": "Customer Success Manager -exposure management- il region",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8909009",
+      "checked_at": "2026-11-24T14:11:33+00:00"
+    },
+    "ats:alljobs:8885840": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Experience requirement of 3-5 years exceeds the candidate's ~2 years of hands-on experience.",
+      "company": "AllJobs",
+      "title": "Enterprise Customer Success Manager",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8885840",
+      "checked_at": "2026-11-24T14:11:40+00:00"
+    },
+    "fb:b34d01fb8ec14e59e533": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Hands-on software development / AI engineering role requiring coding and technical implementation, outside the target operations/business scope.",
+      "company": "AllJobs",
+      "title": "AI Solutions Engineer להובלת פיתוח פתרונות AI חדשניים",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=281534",
+      "checked_at": "2026-11-24T14:12:32+00:00"
+    },
+    "ats:alljobs:8773475": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Hands-on software development / AI engineering role requiring coding and technical implementation.",
+      "company": "AllJobs",
+      "title": "Forward Deployed Engineer (FDE)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8773475",
+      "checked_at": "2026-11-24T14:12:32+00:00"
+    },
+    "ats:alljobs:8902375": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Petah Tikva which is outside the allowed cities, and requires 3+ years specifically in cloud operations/DevOps with AWS production.",
+      "company": "AllJobs",
+      "title": "Technical Account Manager (TAM), AWS Partner-Led Support",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8902375",
+      "checked_at": "2026-11-24T14:14:31+00:00"
+    },
+    "ats:alljobs:8857938": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Modi'in which is outside the allowed list, and requires an electrical engineering degree and 3+ years in BESS/energy project management.",
+      "company": "AllJobs",
+      "title": "מהנדס/ת פרויקטים ( Project Manager Engineer) - מערכות אגירת אנרגיה (BESS)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8857938",
+      "checked_at": "2026-11-24T14:14:31+00:00"
+    },
+    "ats:alljobs:8883688": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Role is heavily technical/hands-on coding (Java, C/C++, Python, Go, distributed databases, Linux) and overlaps with senior architecture/pre-sales.",
+      "company": "AllJobs",
+      "title": "Solutions Engineer",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8883688",
+      "checked_at": "2026-11-24T14:14:31+00:00"
+    },
+    "ats:alljobs:8895664": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience which exceeds the candidate's ~2 years of experience.",
+      "company": "AllJobs",
+      "title": "Product Manager & Senior Product Manager - Security - Multiple roles",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8895664",
+      "checked_at": "2026-11-24T14:27:35+00:00"
+    },
+    "ats:alljobs:8901947": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is not in Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, or Herzliya.",
+      "company": "AllJobs",
+      "title": "operations coordinator",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8901947",
+      "checked_at": "2026-11-24T14:30:21+00:00"
+    },
+    "ats:alljobs:8910510": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Role focuses on classic industrial engineering/Lean/Six Sigma factory processes (rejected role family) and location is Beit She'An.",
+      "company": "AllJobs",
+      "title": "Operational Excellence Specialist",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8910510",
+      "checked_at": "2026-11-24T14:30:21+00:00"
+    },
+    "ats:alljobs:8083856": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is in Haifa, which is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AllJobs",
+      "title": "מיישמ/ת מערכות מידע לחברת חילן",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8083856",
+      "checked_at": "2026-11-24T14:35:36+00:00"
+    },
+    "fb:d7347bc99a258e5b7840": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "The page is a search results / company hub page containing multiple distinct jobs rather than a single specific job vacancy.",
+      "company": "AllJobs",
+      "title": "מיישמ/ת מערכות מידע לחברת חילן",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=36623",
+      "checked_at": "2026-11-24T14:35:55+00:00"
+    },
+    "ats:alljobs:8736688": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "The page is a search results / aggregator page listing multiple different jobs rather than a single specific job vacancy.",
+      "company": "AllJobs",
+      "title": "מיישם SAP",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8736688",
+      "checked_at": "2026-11-24T14:35:55+00:00"
+    },
+    "ats:alljobs:8905565": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "The page is a search results / aggregator page listing multiple different jobs rather than a single specific job vacancy.",
+      "company": "AllJobs",
+      "title": "מיישם/ת Priority מנוסה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8905565",
+      "checked_at": "2026-11-24T14:35:55+00:00"
+    },
+    "ats:alljobs:8891605": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "The page is a search results / aggregator page listing multiple different jobs rather than a single specific job vacancy.",
+      "company": "AllJobs",
+      "title": "מיישם.ת Oracle HCM",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8891605",
+      "checked_at": "2026-11-24T14:35:55+00:00"
+    },
+    "ats:alljobs:8906660": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Rejected: Priority ERP implementation is classified under excluded business-systems administration/IT roles.",
+      "company": "AllJobs",
+      "title": "מיישם/ת Priority פניםארגוני/ת לחברת נדל\"ן",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8906660",
+      "checked_at": "2026-11-24T14:38:56+00:00"
+    },
+    "fb:c99c556cee2e64f6826f": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Rejected: Location is Tel Aviv, but this job evaluation snippet covers multiple listings including Ramat Hasharon/Jerusalem and logistics/import coordination which falls outside general wanted B2B SaaS operations or has conflicting location rules.",
+      "company": "AllJobs",
+      "title": "מיישם/ת Priority פניםארגוני/ת לחברת נדל\"ן",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=62877",
+      "checked_at": "2026-11-24T14:38:56+00:00"
+    },
+    "ats:alljobs:8884350": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Rejected: Location is Petah Tikva which is outside the allowed cities list (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "AllJobs",
+      "title": "מיישם מערכות מידע",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8884350",
+      "checked_at": "2026-11-24T14:38:56+00:00"
+    },
+    "ats:alljobs:8892886": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Rejected: Location is Kadima-Zoran which is outside the allowed cities list.",
+      "company": "AllJobs",
+      "title": "מיישם/ת ומטמיע/ת מערכות מידע ERP ו-AI",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8892886",
+      "checked_at": "2026-11-24T14:38:56+00:00"
+    },
+    "ats:alljobs:8906951": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location 'שמיר' is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya)",
+      "company": "AllJobs",
+      "title": "מנתח/ת ומיישם/ת מערכות מידע",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8906951",
+      "checked_at": "2026-11-24T14:39:36+00:00"
+    },
+    "ats:alljobs:8905627": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location 'רמלה' is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya)",
+      "company": "AllJobs",
+      "title": "מיישם/ת Priority",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8905627",
+      "checked_at": "2026-11-24T14:39:36+00:00"
+    },
+    "ats:alljobs:8884695": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location 'תימורים' is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya)",
+      "company": "AllJobs",
+      "title": "איש מערכות מידע - priority",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8884695",
+      "checked_at": "2026-11-24T14:39:36+00:00"
+    },
+    "ats:alljobs:8882626": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location 'מרכז' does not specify an allowed city from the permitted list",
+      "company": "AllJobs",
+      "title": "מיישם/ת SAP מודולים mm, im, pm, wm",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8882626",
+      "checked_at": "2026-11-24T14:39:36+00:00"
+    },
+    "ats:alljobs:8808266": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Yagur, which is not in the allowed cities list, and experience required is 3+ years in Priority ERP implementation while target YOE is up to 4 years but location violation is strict.",
+      "company": "AllJobs",
+      "title": "מיישם/ת Priority ERP",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8808266",
+      "checked_at": "2026-11-24T14:39:40+00:00"
+    },
+    "ats:alljobs:8901758": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Kfar Saba, which is not in the allowed cities list.",
+      "company": "AllJobs",
+      "title": "* מנהל/ת מוצר - חדשנות ומוצרים דיגיטליים לשלטון המקומי*",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8901758",
+      "checked_at": "2026-11-24T14:39:40+00:00"
+    },
+    "fb:4ca7cae52bf5f3c84ec8": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Aggregator page / multiple listings combined without a single specific job vacancy.",
+      "company": "AllJobs",
+      "title": "מנהל מוצר סימולטור- הפניקס סוכנויות",
+      "url": "https://www.alljobs.co.il/Employer/HP/Default.aspx?cid=256189",
+      "checked_at": "2026-11-24T14:40:16+00:00"
+    },
+    "ats:alljobs:8831753": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Be'er Ya'akov, which is not in the allowed cities list, and experience required (3-5 years) exceeds the 0-4 target upper bound.",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר AI (Product Owner)",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8831753",
+      "checked_at": "2026-11-24T14:40:16+00:00"
+    },
+    "ats:alljobs:8859287": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Be'er Sheva, which is not in the allowed cities list.",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר טכנולוגי/ת - Platforms Digital Products",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8859287",
+      "checked_at": "2026-11-24T14:40:16+00:00"
+    },
+    "ats:alljobs:8840385": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Experience required is at least 3 years while candidate has ~2 years, making it borderline, but it's part of a multi-job snippet aggregation issue. Furthermore, duplicate/truncated posting.",
+      "company": "AllJobs",
+      "title": "מנהל/ת מוצר דיגיטל | אגף מטה ואסטרטגיה",
+      "url": "https://www.alljobs.co.il/Search/UploadSingle.aspx?JobID=8840385",
+      "checked_at": "2026-11-24T14:40:16+00:00"
+    },
+    "ats:drushim:38953727": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location not specified/confirmed to be in the allowed cities list (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "Drushim",
+      "title": "מנהל פרויקטים למערכות מידע",
+      "url": "https://www.drushim.co.il/job/38953727/519a1625/",
+      "checked_at": "2026-11-24T15:19:40+00:00"
+    },
+    "ats:drushim:38984887": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location is Beer Yaakov, which is outside the allowed cities list.",
+      "company": "Drushim",
+      "title": "PMO לניהול גאנטים ותקציבים",
+      "url": "https://www.drushim.co.il/job/38984887/168a37c5/",
+      "checked_at": "2026-11-24T15:19:40+00:00"
+    },
+    "ats:drushim:39179523": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location not specified/confirmed to be in the allowed cities list.",
+      "company": "Drushim",
+      "title": "מנהל/ת פרויקטי מסירה והפעלת סניפים",
+      "url": "https://www.drushim.co.il/job/39179523/42e99c73/",
+      "checked_at": "2026-11-24T15:19:40+00:00"
+    },
+    "ats:drushim:38875048": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Location not specified/confirmed to be in the allowed cities list.",
+      "company": "Drushim",
+      "title": "מנתח/ת מערכות ומנהל/ת פרויקטים מגזר פיננסי",
+      "url": "https://www.drushim.co.il/job/38875048/16cf2a1e/",
+      "checked_at": "2026-11-24T15:19:40+00:00"
+    },
+    "ats:smartrecruiters:744000162288255": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Experience requirement (4+ years) exceeds the candidate's max 4 years or stretches beyond the target range for junior/mid profile.",
+      "company": "Check Point",
+      "title": "Customer Success Manager, Exposure Management-EMEA Region-French Speaker",
+      "url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000162288255",
+      "checked_at": "2026-11-24T15:26:58+00:00"
+    },
+    "ats:smartrecruiters:744000162288142": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Experience requirement (4+ years) exceeds the upper bound of the target experience limit.",
+      "company": "Check Point",
+      "title": "Customer Success Manager-Exposure Management- IL Region",
+      "url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000162288142",
+      "checked_at": "2026-11-24T15:26:58+00:00"
+    },
+    "ats:smartrecruiters:744000162149804": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Experience requirement (4+ years) exceeds the candidate's max limit.",
+      "company": "Check Point",
+      "title": "Customer Success Manager, Exposure Management- EMEA",
+      "url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000162149804",
+      "checked_at": "2026-11-24T15:26:58+00:00"
+    },
+    "ats:smartrecruiters:744000145551157": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Role requires a Bachelor of Science in Electrical Engineering and hands-on hardware/board design experience, which is outside the target candidate profile.",
+      "company": "Check Point",
+      "title": "Board Design / Hardware Project Manager",
+      "url": "https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000145551157",
+      "checked_at": "2026-11-24T15:26:58+00:00"
+    },
+    "ats:gotfriends:155482": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4 years of product management experience, exceeding candidate's ~2 years of experience.",
+      "company": "GotFriends",
+      "title": "Product Manager בחברת סטארט-אפ בתחום ה-Cybersecurity וה-AI",
+      "url": "https://www.gotfriends.co.il/jobslobby/projects/product-manager/155482/",
+      "checked_at": "2026-11-24T15:28:18+00:00"
+    },
+    "ats:lever:52e503fe-c6a7-4df9-bd51-eb187a286716": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires at least 4 years of experience in managing complex algorithm-centric products (exceeds the up to 4 years rule, specifically looking for senior PM experience in a hard-tech domain).",
+      "company": "Mobileye",
+      "title": "AV Perception Product Manager",
+      "url": "https://jobs.eu.lever.co/mobileye/52e503fe-c6a7-4df9-bd51-eb187a286716",
+      "checked_at": "2026-11-24T15:41:52+00:00"
+    },
+    "ats:ashby:9cad4e73-b325-4eda-a856-7d1cda4e6292": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3-5 years of FP&A experience, which exceeds the up to 4 years target combined with candidate profile preferences (finance is lower priority and min 5 years upper bound for 3-5 puts it out of range).",
+      "company": "Nexxen",
+      "title": "FP&A Analyst",
+      "url": "https://jobs.ashbyhq.com/nexxen/9cad4e73-b325-4eda-a856-7d1cda4e6292",
+      "checked_at": "2026-11-24T15:41:52+00:00"
+    },
+    "fb:9ad59b02d81c7dbe20a1": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3+ years of specific product management experience in a B2B SaaS company, exceeding the candidate's total experience.",
+      "company": "Navina",
+      "title": "Product Manager",
+      "url": "https://www.navina.ai/positions/position-0d_37d",
+      "checked_at": "2026-11-24T15:41:52+00:00"
+    },
+    "fb:14bf01b6d5c278eb872a": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4 years of specific BI project management experience, exceeding candidate's ~2 years.",
+      "company": "opisoft",
+      "title": "BI Systems Analyst & Project Manager",
+      "url": "https://opisoft.com/career/bi-systems-analyst-project-manager/",
+      "checked_at": "2026-11-24T15:54:12+00:00"
+    },
+    "fb:2a8a26480e5cfd2588a1": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Cybersecurity implementation and operations role falls outside target roles.",
+      "company": "opisoft",
+      "title": "מיישם/ת אבטחת מידע וסייבר עבור ארגון רפואי באזור המרכז",
+      "url": "https://opisoft.com/career/%d7%9e%d7%99%d7%99%d7%a9%d7%9d-%d7%aa-%d7%90%d7%91%d7%98%d7%97%d7%aa-%d7%9e%d7%99%d7%93%d7%a2-%d7%95%d7%a1%d7%99%d7%99%d7%91%d7%a8-%d7%a2%d7%91%d7%95%d7%a8-%d7%90%d7%a8%d7%92%d7%95%d7%9f-%d7%a8%d7%a4/",
+      "checked_at": "2026-11-24T15:54:12+00:00"
+    },
+    "fb:237b76282dcf2dc1c5a5": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "This is a search results / category hub page, not a single specific job vacancy.",
+      "company": "Phoenix Insurance",
+      "title": "חטיבת טכנולוגיות מערכות מידע וחדשנות",
+      "url": "https://www.fnx.co.il/career/open-positions?domain=%D7%97%D7%98%D7%99%D7%91%D7%AA%20%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%95%D7%AA%20%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA%20%D7%9E%D7%99%D7%93%D7%A2%20%D7%95%D7%97%D7%93%D7%A9%D7%A0%D7%95%D7%AA",
+      "checked_at": "2026-11-24T15:54:12+00:00"
+    },
+    "ats:greenhouse:8905019002": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 7 years of experience as a PM, which exceeds the candidate's ~2 years of experience.",
+      "company": "Riskified",
+      "title": "Staff Growth Product Manager",
+      "url": "https://www.riskified.com/careers/job-description/?gh_jid=8905019002",
+      "checked_at": "2026-11-24T15:56:19+00:00"
+    },
+    "ats:ashby:ff87a51f-50b8-42f0-9449-03d37243847d": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience as a CSM/TAM, exceeding the candidate's ~2 years of experience.",
+      "company": "Sisense",
+      "title": "Customer Success Manager",
+      "url": "https://jobs.ashbyhq.com/sisense/ff87a51f-50b8-42f0-9449-03d37243847d",
+      "checked_at": "2026-11-24T15:56:19+00:00"
+    },
+    "ats:greenhouse:similarweb/6897277": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires at least 4 years of experience, exceeding the candidate's ~2 years of experience.",
+      "company": "SimilarWeb LTD",
+      "title": "Big Data Analyst",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/6897277",
+      "checked_at": "2026-11-24T15:56:19+00:00"
+    },
+    "ats:greenhouse:similarweb/8273657": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of product management experience, exceeding the candidate's ~2 years of experience.",
+      "company": "SimilarWeb LTD",
+      "title": "Product Manager – AI Transformation",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/8273657",
+      "checked_at": "2026-11-24T15:57:00+00:00"
+    },
+    "ats:greenhouse:similarweb/7548388": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience, exceeding the candidate's ~2 years profile.",
+      "company": "SimilarWeb LTD",
+      "title": "Senior Product Analyst",
+      "url": "https://job-boards.greenhouse.io/similarweb/jobs/7548388",
+      "checked_at": "2026-11-24T15:57:33+00:00"
+    },
+    "fb:26ffa721cf350d901570": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Located in Be'er-Sheva, which is outside the allowed cities (Tel Aviv, Ramat Gan, Bnei Brak, Givatayim, Herzliya).",
+      "company": "SITE 123",
+      "title": "Customer Success Manager",
+      "url": "https://he.site123.com/jobs/customer-success-manager",
+      "checked_at": "2026-11-24T15:57:33+00:00"
+    },
+    "fb:6622459610214b93d361": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Not a single specific job vacancy (career portal home/search page).",
+      "company": "SodaStream",
+      "title": "Research Analytics",
+      "url": "https://www.pepsicojobs.com/main/jobs?keywords=research%20analytics&sortBy=relevance&page=1",
+      "checked_at": "2026-11-24T15:57:33+00:00"
+    },
+    "fb:0eed8509039ab0bca2d0": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "General career portal/search results page rather than a single specific job vacancy, and location does not specify an allowed city.",
+      "company": "SodaStream",
+      "title": "Operations Safety",
+      "url": "https://www.pepsicojobs.com/main/jobs?keywords=safety",
+      "checked_at": "2026-11-24T15:59:17+00:00"
+    },
+    "ats:greenhouse:sweetsecurity/4988014101": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience as a Product Manager, exceeding the candidate's ~2 years of operations experience.",
+      "company": "Sweet Security",
+      "title": "Product Manager",
+      "url": "https://job-boards.eu.greenhouse.io/sweetsecurity/jobs/4988014101",
+      "checked_at": "2026-11-24T15:59:17+00:00"
+    },
+    "fb:6e9b6e73862bc631f67d": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires at least 4 years of experience, exceeding the candidate's ~2 years of experience.",
+      "company": "Superplay",
+      "title": "FP&A Analyst",
+      "url": "https://www.superplay.co/careers-position/2F.07C",
+      "checked_at": "2026-11-24T15:59:17+00:00"
+    },
+    "fb:71c3e04be5ad9444d430": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires at least 3 years of experience as a Product Manager/Owner specifically in the gaming industry, exceeding the candidate's general operations background and seniority threshold for this specific domain.",
+      "company": "Superplay",
+      "title": "Product Manager",
+      "url": "https://www.superplay.co/careers-position/04.47A",
+      "checked_at": "2026-11-24T15:59:24+00:00"
+    },
+    "ats:comeet:sygnia:21.470": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3+ years of specific FP&A experience in a global high-growth company, and finance is a lower-priority secondary track where the candidate has a mismatch in core experience.",
+      "company": "Sygnia",
+      "title": "FP&A Analyst",
+      "url": "https://www.sygnia.co/careers/co/israel/21.470/fpa-analyst/all/",
+      "checked_at": "2026-11-24T15:59:24+00:00"
+    },
+    "ats:greenhouse:8264354": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience in ad-tech, programmatic, or solutions engineering, exceeding the candidate's ~2 years of experience.",
+      "company": "Taboola",
+      "title": "Bid Ops Optimization Engineer (Maternity Leave Cover)",
+      "url": "https://www.taboola.com/careers/job/8264354?gh_jid=8264354",
+      "checked_at": "2026-11-24T15:59:24+00:00"
+    },
+    "ats:comeet:upwind:9F.472": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3+ years of experience as a Product Manager, exceeding the candidate's ~2 years of experience.",
+      "company": "upwind",
+      "title": "AI Product Manager",
+      "url": "https://www.upwind.io/careers/co/tel-aviv/9F.472/ai-product-manager/all",
+      "checked_at": "2026-11-24T16:01:19+00:00"
+    },
+    "ats:comeet:upwind:76.27A": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3+ years of experience, exceeding the candidate's ~2 years.",
+      "company": "upwind",
+      "title": "Technical Account Manager",
+      "url": "https://www.upwind.io/careers/co/tel-aviv/76.27A/technical-account-manager/all",
+      "checked_at": "2026-11-24T16:01:19+00:00"
+    },
+    "ats:ashby:0792a60a-562a-432c-a2ac-1430f385b0af": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3+ years of product management experience, exceeding the candidate's ~2 years.",
+      "company": "Wonderful",
+      "title": "Senior Product Manager",
+      "url": "https://jobs.ashbyhq.com/wonderful/0792a60a-562a-432c-a2ac-1430f385b0af",
+      "checked_at": "2026-11-24T16:01:19+00:00"
+    },
+    "ats:smartrecruiters:744000161298399": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 3-5 years of experience, exceeding the candidate's ~2 years.",
+      "company": "Wix",
+      "title": "FP&A analyst",
+      "url": "https://jobs.smartrecruiters.com/Wix2/744000161298399",
+      "checked_at": "2026-11-24T16:11:15+00:00"
+    },
+    "ats:smartrecruiters:744000151318039": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience, exceeding the candidate's ~2 years, and hands-on coding.",
+      "company": "Wix",
+      "title": "Forward Deployed Engineer - Base44",
+      "url": "https://jobs.smartrecruiters.com/Wix2/744000151318039",
+      "checked_at": "2026-11-24T16:11:15+00:00"
+    },
+    "fb:a8b569d7555be7f3c4fc": {
+      "profile": "iem_saas_ops",
+      "decision": "rejected",
+      "stage": "ai",
+      "reason": "Requires 4+ years of experience, exceeding the candidate's ~2 years.",
+      "company": "Guardio",
+      "title": "Growth Analyst",
+      "url": "https://guard.io/careers",
+      "checked_at": "2026-11-24T16:11:15+00:00"
+    }
+  }
 }
