@@ -985,6 +985,34 @@
       "registry_name": "Wonderful"
     },
     {
+      "company": "WSC Sports",
+      "sector": "AI, Product & Enterprise SaaS",
+      "priority": "P1",
+      "company_website_candidate": "https://wsc-sports.com",
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "named_in_published_source",
+      "target_job_titles": [
+        "Associate Product Manager",
+        "Product Operations",
+        "Product Analyst",
+        "Business Operations Analyst",
+        "Project Coordinator"
+      ],
+      "why_relevant": "Cross-functional product, customer workflow, analytics and operating-system exposure. Explicitly requested by the user.",
+      "evidence_urls": [
+        "https://www.duns100.co.il/en/rating/High_Tech/Best_HighTech_Companies_to_work_for/2026"
+      ],
+      "verified_open_role": false,
+      "verification_required": [
+        "official current Israel presence",
+        "current Israel job location",
+        "ATS/careers URL",
+        "job-level entry criteria"
+      ],
+      "company_key": "wscsports",
+      "registry_name": "WSC Sports"
+    },
+    {
       "company": "Zencity",
       "sector": "AI, Product & Enterprise SaaS",
       "priority": "P1",
@@ -2565,34 +2593,6 @@
       ],
       "company_key": "weka",
       "registry_name": null
-    },
-    {
-      "company": "WSC Sports",
-      "sector": "AI, Product & Enterprise SaaS",
-      "priority": "P2",
-      "company_website_candidate": "https://wsc-sports.com",
-      "verified_careers_url": null,
-      "israel_presence_evidence_level": "named_in_published_source",
-      "target_job_titles": [
-        "Associate Product Manager",
-        "Product Operations",
-        "Product Analyst",
-        "Business Operations Analyst",
-        "Project Coordinator"
-      ],
-      "why_relevant": "Cross-functional product, customer workflow, analytics and operating-system exposure.",
-      "evidence_urls": [
-        "https://www.duns100.co.il/en/rating/High_Tech/Best_HighTech_Companies_to_work_for/2026"
-      ],
-      "verified_open_role": false,
-      "verification_required": [
-        "official current Israel presence",
-        "current Israel job location",
-        "ATS/careers URL",
-        "job-level entry criteria"
-      ],
-      "company_key": "wscsports",
-      "registry_name": "WSC Sports"
     },
     {
       "company": "Yotpo",
