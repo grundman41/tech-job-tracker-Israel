@@ -1401,13 +1401,19 @@ def build_entry(job, ev):
         skills_fit = float(ev.get("skills_fit", 0.5))
     except (TypeError, ValueError):
         role_match, skills_fit = 0.7, 0.5
+    category = ev.get("role_category") if ev.get("role_category") in ROLE_CATEGORIES else "other"
+    # role_category_weights lets a profile keep a role family but rank it below the core ones.
+    try:
+        role_match *= float((USER_CONFIG.get("role_category_weights") or {}).get(category, 1.0))
+    except (TypeError, ValueError):
+        pass
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     provider, jid = ji.extract_ats_job_id(job["url"])
     return {
         # --- legacy contract (index.html, Excel) ---
         "company": job["company"],
         "title": job["title"],
-        "role_category": ev.get("role_category") if ev.get("role_category") in ROLE_CATEGORIES else "other",
+        "role_category": category,
         "referral_contact": job.get("referral_contact", DEFAULT_REFERRAL_CONTACT),
         "referral_type": job.get("referral_type", DEFAULT_REFERRAL_TYPE),
         "location": location,

@@ -7,18 +7,16 @@
 | ניסיון | 0–4 שנים. משרה שדורשת 5+ שנים נפסלת. משרה של 2–4 שנים מדורגת **גבוה**, משרת סטודנט מדורגת נמוך. |
 | ערים | תל אביב (כולל יפו), רמת גן, בני ברק, גבעתיים, הרצליה (כולל הרצליה פיתוח) |
 | חסומים | בנקים בלבד. חברות ביטחוניות **כן** יוצגו. |
-| סטודנטים | לא נכללים (אין חיפוש אחרי משרות סטודנט והתמחות) |
+| סטודנטים | **נפסלות** — משרות סטודנט, התמחות ו-Trainee לא יופיעו כלל |
 | "Senior" בכותרת | **מותר** — ה-AI שופט לפי שנות הניסיון שבמודעה, לא לפי המילה |
 | משרות ניהול | נפסלות: Head of, Director, VP, ראש צוות, מנהל מחלקה |
 
 ---
 
-## 12 הקטגוריות שהמערכת מחפשת
-
-סמן לי מה **למחוק** ואצמצם. אפשר גם להוריד קטגוריה שלמה.
+## 8 הקטגוריות שהמערכת מחפשת
 
 ### 1. תפעול ו-Operations (הליבה)
-Operations Analyst / Specialist / Manager / Coordinator · Business Operations · BizOps · Strategy & Operations · Revenue Operations (RevOps) · Sales Operations · GTM Operations · Marketing Operations · Customer Operations · Support Operations · Product Operations · Partner Operations · Deal Desk · Billing Operations · Payment Operations · Risk Operations · Fraud Operations · Trust & Safety Operations · Workforce Management · Capacity Planning · Operational Excellence · Chief of Staff · Founder's Associate
+Operations Analyst / Specialist / Manager / Coordinator · Business Operations · BizOps · Strategy & Operations · Customer Operations · Support Operations · Product Operations · Partner Operations · Operational Excellence
 
 ### 2. ניהול פרויקטים ותוכניות
 Project Manager · Program Manager · Technical Program Manager (TPM) · PMO / PMO Analyst · Project Coordinator · Project Analyst · Implementation Project Manager · Delivery Manager
@@ -29,35 +27,32 @@ Product Manager · Associate Product Manager (APM) · Product Owner · Product A
 ### 4. אנליזה עסקית
 Business Analyst · Business Systems Analyst · Systems Analyst · Business Process Analyst · Strategy Analyst · Operations Research Analyst
 
-### 5. דאטה ו-BI
-Data Analyst · BI Analyst · Business Intelligence Analyst · Analytics Specialist
-
-### 6. פיננסים
-Financial Analyst · FP&A Analyst · Pricing Analyst · FinOps Analyst
-
-### 7. Customer Success והטמעה
+### 5. Customer Success והטמעה
 Customer Success Manager · Onboarding Manager / Specialist · Implementation Specialist / Consultant / Manager · Account Manager · Technical Account Manager · Customer Experience Manager · Professional Services Consultant
 
-### 8. Solutions
+### 6. Solutions
 Solutions Consultant · Solutions Engineer · Solutions Architect (ללא קוד) · Forward Deployed · Deployment Specialist
 
-### 9. מערכות עסקיות ואוטומציה
-Salesforce Administrator · CRM Manager / Analyst · NetSuite Administrator · Business Applications Specialist · Automation Specialist · No-Code / Low-Code · AI Operations · AI Implementation · RPA
+### 7. דאטה ו-BI — **עדיפות נמוכה**
+Data Analyst · BI Analyst · Business Intelligence Analyst · Analytics Specialist
 
-### 10. שיפור תהליכים והנדסת תעשייה
-Process Improvement · Continuous Improvement · Industrial Engineer · Lean / Six Sigma · Digital Transformation Analyst
+### 8. פיננסים — **עדיפות נמוכה**
+Financial Analyst · FP&A Analyst · Pricing Analyst · FinOps Analyst
 
-### 11. רכש ושרשרת אספקה
-Supply Chain Analyst / Planner · Demand Planner · Procurement Specialist / Analyst · Purchasing · Vendor Manager · Logistics Coordinator
+### 9. פיתוח עסקי
+Business Development Manager / Analyst
 
-### 12. פיתוח עסקי, אסטרטגיה וייעוץ
-Business Development (Manager / Analyst) · Partnerships Manager · Strategic Partnerships · Business Consultant · Management Consultant · Strategy Consultant
+> קטגוריות 7 ו-8 מקבלות ציון התאמה מוכפל ב-0.6, ולכן יופיעו מתחת לתפקידי הליבה בלוח. לשינוי: השדה `role_category_weights`.
 
 ---
 
 ## מה נפסל תמיד
 
-פיתוח תוכנה (Backend / Frontend / Fullstack / Mobile) · Data Engineering / Data Science / ML / AI Engineering · אלגוריתמים ומחקר · חומרה ואמבדד · QA ואוטומציית בדיקות · DevOps / SRE / IT · סייבר ו-SOC · תמיכה טכנית ושירות לקוחות בחזית (אבל **Support Operations מותר**) · מכירות טלפוניות (SDR / BDR / טלמרקטינג) · שיווק תוכן, קריאייטיב, SEO ומדיה (אבל **Marketing Operations מותר**) · משאבי אנוש וגיוס · משפטי · הנהלת חשבונות ושכר · בנקים
+**לפי בקשתך הוסרו:** RevOps · Sales Operations · GTM Operations · Marketing Operations · Deal Desk · Billing / Payment Operations · Risk / Fraud / Trust & Safety · Workforce Management · Capacity Planning · Chief of Staff · Founder's Associate · מערכות עסקיות ואוטומציה (Salesforce, CRM, NetSuite, RPA, No-Code) · שיפור תהליכים, Lean / Six Sigma והנדסת תעשייה קלאסית · רכש, שרשרת אספקה ולוגיסטיקה · שותפויות · ייעוץ (חברות ייעוץ) · **משרות סטודנט, התמחות ו-Trainee**
+
+> `Solutions Consultant` ו-`Implementation Consultant` **כן** עוברים, למרות המילה "Consultant", כי אלה תפקידי הטמעה בחברות מוצר.
+
+**נפסל ממילא:** פיתוח תוכנה (Backend / Frontend / Fullstack / Mobile) · Data Engineering / Data Science / ML / AI Engineering · אלגוריתמים ומחקר · חומרה ואמבדד · QA ואוטומציית בדיקות · DevOps / SRE / IT · סייבר ו-SOC · תמיכה טכנית ושירות לקוחות בחזית (אבל **Support Operations מותר**) · מכירות טלפוניות (SDR / BDR) · שיווק מכל סוג · משאבי אנוש וגיוס · משפטי · הנהלת חשבונות ושכר · בנקים
 
 ---
 
@@ -69,7 +64,7 @@ Business Development (Manager / Analyst) · Partnerships Manager · Strategic Pa
 |---|---|
 | להוסיף או להסיר עיר | `allowed_cities` — תמיד באנגלית **ובעברית** |
 | טווח הניסיון | `max_yoe` |
-| לכלול משרות סטודנט | `include_student_and_graduate` ל-`true` |
+| להוריד קטגוריה מעדיפות | `role_category_weights` |
 | לחסום חברה | `excluded_companies` |
 | לבטל את חסימת הבנקים | למחוק את הקבוצה `banks` |
 | חיפושים בלינקדאין | `linkedin_queries` |

@@ -185,14 +185,11 @@ def test_gemini_preflight_stops_on_bad_key(monkeypatch):
 @pytest.mark.parametrize("title,expected", [
     ("Operations Analyst", True),
     ("Senior Operations Analyst", True),          # 'Senior' alone is allowed (2-4 YOE); the AI judges the stated years
-    ("Revenue Operations Manager", True),
-    ("Chief of Staff", True),
+    ("Business Operations Manager", True),
     ("Customer Success Manager", True),
     ("Data Analyst", True),
     ("FP&A Analyst", True),
-    ("Salesforce Administrator", True),
     ("Support Operations Specialist", True),
-    ("Marketing Operations Manager", True),
     ("מנהל/ת תפעול", True),
     ("Head of Operations", False),
     ("Director of Business Operations", False),
@@ -231,3 +228,49 @@ def test_profile_eligibility_points_rank_2_plus_above_junior():
     hi = ji.match_score(1.0, "stretch_2_plus", "tel aviv", None, 0.8, 1.0, None, {"tel aviv"}, eligibility_points=pts)
     lo = ji.match_score(1.0, "explicit_student", "tel aviv", None, 0.8, 1.0, None, {"tel aviv"}, eligibility_points=pts)
     assert hi > lo
+
+
+@pytest.mark.parametrize("title,expected", [
+    ("Business Operations Analyst", True),
+    ("Customer Operations Specialist", True),
+    ("Solutions Consultant", True),
+    ("Implementation Manager", True),
+    ("Data Analyst", True),
+    ("FP&A Analyst", True),
+    # families the user asked to drop
+    ("Revenue Operations Manager", False),
+    ("Sales Operations Analyst", False),
+    ("Marketing Operations Manager", False),
+    ("Deal Desk Analyst", False),
+    ("Billing Operations Specialist", False),
+    ("Fraud Operations Analyst", False),
+    ("Workforce Management Analyst", False),
+    ("Chief of Staff", False),
+    ("Salesforce Administrator", False),
+    ("Automation Specialist", False),
+    ("Process Improvement Engineer", False),
+    ("Industrial Engineer", False),
+    ("Supply Chain Analyst", False),
+    ("Procurement Specialist", False),
+    ("Partnerships Manager", False),
+    ("Management Consultant", False),
+    ("רכז/ת רכש", False),
+])
+def test_saas_ops_dropped_role_families(title, expected):
+    assert jc.ProfileTitleFilter(_profile("iem_saas_ops")).matches(title) is expected
+
+
+def test_data_and_finance_rank_below_core_roles():
+    job = _cand("Wix", "Data Analyst", "https://jobs.smartrecruiters.com/Wix2/744000999")
+    job.update({"requirements_text": "x" * 200})
+    ev = {"approved": True, "experience_level": "stretch_2_plus", "role_match": 0.9, "skills_fit": 0.8,
+          "detected_city": "Tel Aviv"}
+    data = jc.build_entry(job, dict(ev, role_category="data_analytics"))
+    ops = jc.build_entry(dict(job, title="Operations Analyst"), dict(ev, role_category="operations"))
+    assert data["match_score"] < ops["match_score"]
+
+
+@pytest.mark.parametrize("title", ["Operations Student", "Student Position - Business Analyst", "Product Management Intern",
+                                   "Operations Intern", "משרת סטודנט/ית לתפעול", "מתמחה בתפעול"])
+def test_student_and_intern_roles_are_rejected(title):
+    assert not jc.ProfileTitleFilter(_profile("iem_saas_ops")).matches(title)
