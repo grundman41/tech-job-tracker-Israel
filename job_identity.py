@@ -320,7 +320,7 @@ EXPERIENCE_LABELS_HE = {
     "explicit_student": "סטודנט / מתמחה",
     "explicit_junior": "ג'וניור / בוגר",
     "explicit_0_2": "0–2 שנים",
-    "stretch_2_plus": "2+ (גבולי)",
+    "stretch_2_plus": "2+ שנים",
     "unspecified": "לא צוין",
     "senior": "בכיר",
 }
@@ -331,6 +331,9 @@ JUNIOR_RE = re.compile(r"\b(junior|jr\.?|graduate|new grad|entry[\s\-]?level|ass
                        r"מתאים למתחילים", re.I)
 SENIOR_TITLE_RE = re.compile(r"\b(senior|sr\.?|lead|head of|director|vp|vice president|principal|staff|chief|"
                              r"group manager|team lead(?:er)?)\b|בכיר|ראש צוות|ראש תחום|סמנכ", re.I)
+# For profiles that accept more than 2 years: 'Senior'/'Lead' alone is not disqualifying, management titles are.
+MANAGEMENT_TITLE_RE = re.compile(r"\b(head of|director|vp|vice president|principal|chief(?! of staff)|group manager|"
+                                 r"team lead(?:er)?)\b|ראש צוות|ראש תחום|סמנכ", re.I)
 YEARS_RE = re.compile(
     r"(?P<pre>at\s+least|minimum(?:\s+of)?|min\.?|up\s+to|לפחות|עד)?\s*"
     r"(?P<a>\d{1,2})\s*(?P<plus>\+)?\s*(?:(?:-|–|—|to|עד)\s*(?P<b>\d{1,2}))?\s*\+?\s*"
@@ -338,14 +341,16 @@ YEARS_RE = re.compile(
     re.I)
 
 
-def parse_experience_requirement(title, text=""):
+def parse_experience_requirement(title, text="", max_yoe=2):
     """
     Returns (level, evidence). Order: senior title > explicit student > explicit junior > years in text > unspecified.
     'evidence' is the matched span so a human can audit the classification.
+    max_yoe: the profile's upper bound. A stated minimum above it is 'senior'; 2..max_yoe is 'stretch_2_plus'.
     """
     t = normalize_text(title)
     body = normalize_text(text)
-    m = SENIOR_TITLE_RE.search(t)
+    max_yoe = max(2, int(max_yoe))
+    m = (SENIOR_TITLE_RE if max_yoe <= 2 else MANAGEMENT_TITLE_RE).search(t)
     if m:
         return "senior", m.group(0)
     m = STUDENT_RE.search(t)
@@ -367,9 +372,9 @@ def parse_experience_requirement(title, text=""):
             mins.append((a, ym.group(0).strip()))
     if mins:
         lo, ev = min(mins, key=lambda x: x[0])
-        if lo >= 3:
+        if lo > max_yoe:
             return "senior", ev
-        if lo == 2:
+        if lo >= 2:
             return "stretch_2_plus", ev
         return "explicit_0_2", ev
 
@@ -404,9 +409,10 @@ PRIORITY_POINTS = {"P1": 1.0, "P2": 0.7, "P3": 0.45, None: 0.35}
 
 
 def match_score(role_match, experience_level, location_token, priority=None, skills_fit=0.5, freshness=1.0,
-                weights=None, allowed_location_tokens=None):
-    """0-100. role_match / skills_fit / freshness are 0..1."""
+                weights=None, allowed_location_tokens=None, eligibility_points=None):
+    """0-100. role_match / skills_fit / freshness are 0..1. eligibility_points overrides ELIGIBILITY_POINTS per profile."""
     w = dict(DEFAULT_WEIGHTS, **(weights or {}))
+    elig = dict(ELIGIBILITY_POINTS, **(eligibility_points or {}))
     if location_token in ("foreign",):
         loc = 0.0
     elif allowed_location_tokens and location_token in allowed_location_tokens:
@@ -417,7 +423,7 @@ def match_score(role_match, experience_level, location_token, priority=None, ski
         loc = 0.75
     parts = {
         "role": max(0.0, min(1.0, role_match)),
-        "eligibility": ELIGIBILITY_POINTS.get(experience_level, 0.5),
+        "eligibility": elig.get(experience_level, 0.5),
         "location": loc,
         "priority": PRIORITY_POINTS.get(priority, 0.35),
         "fit": max(0.0, min(1.0, skills_fit)),

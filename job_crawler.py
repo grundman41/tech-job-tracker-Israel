@@ -101,7 +101,8 @@ DEFAULT_CONFIG = {
 
 ROLE_CATEGORIES = [
     "product", "project", "operations", "business_analysis", "industrial_engineering",
-    "solutions", "customer_success", "business_development", "consulting", "other"
+    "solutions", "customer_success", "business_development", "consulting", "data_analytics", "finance",
+    "business_systems", "other"
 ]
 
 HEADERS = {
@@ -241,9 +242,19 @@ OTHER_ISRAEL_CITY_REGEX = re.compile(
     r"nesher|נשר|kfar[\s\-_]*vradim|כפר[\s\-_]*ורדים|zichron|זכרון|or[\s\-_]*akiva|אור[\s\-_]*עקיבא|"
     r"beit[\s\-_]*shemesh|בית[\s\-_]*שמש|mevaseret|מבשרת|katzrin|קצרין|yavne|יבנה|kiryat[\s\-_]*ata|"
     r"northern[\s\-_]*district|southern[\s\-_]*district|haifa[\s\-_]*district|jerusalem[\s\-_]*district|"
-    r"אזור[\s\-_]*הצפון|אזור[\s\-_]*הדרום)",
+    r"אזור[\s\-_]*הצפון|אזור[\s\-_]*הדרום|"
+    # Central-Israel cities: rejected only when the profile's allowed_cities do not list them (allowed wins).
+    r"petah?[\s\-_]*tikv?a|petach[\s\-_]*tikv?a|פתח[\s\-_]*תקו?וה|holon|חולון|bat[\s\-_]*yam|בת[\s\-_]*ים|"
+    r"rishon[\s\-_]*le[\s\-_]*?zion|ראשון[\s\-_]*לציון|rehovot|רחובות|ness?[\s\-_]*ziona|נס[\s\-_]*ציונה|"
+    r"ra'?anana|רעננה|kfar[\s\-_]*saba|כפר[\s\-_]*סבא|hod[\s\-_]*hasharon|הוד[\s\-_]*השרון|"
+    r"ramat[\s\-_]*hasharon|רמת[\s\-_]*השרון|kiryat[\s\-_]*ono|קרי?ית[\s\-_]*אונו|or[\s\-_]*yehuda|אור[\s\-_]*יהודה|"
+    r"\byehud\b|rosh[\s\-_]*ha'?[\s\-_]*ayin|ראש[\s\-_]*העין|\blod\b|לוד|ramla|רמלה|shoham|שוהם|"
+    r"airport[\s\-_]*city|איירפורט[\s\-_]*סיטי|givat[\s\-_]*shmuel|גבעת[\s\-_]*שמואל)",
     re.IGNORECASE
 )
+
+# "Tel Aviv District" is a region (Holon, Bat Yam, Ramat HaSharon...), not the city: ignore it when matching cities.
+TEL_AVIV_DISTRICT_REGEX = re.compile(r"tel[\s\-_]*aviv[\s\-_]*district|מחוז[\s\-_]*תל[\s\-_]*אביב", re.IGNORECASE)
 
 ALLOWED_CITY_REGEX = build_keyword_regex(
     [c for c in USER_CONFIG.get("allowed_cities", []) if re.search(r"[a-zA-Z]", c)],
@@ -300,9 +311,9 @@ ALWAYS_REJECT_REGEX = build_keyword_regex(
 def build_reject_title_regex(cfg):
     english = list(cfg.get("excluded_title_keywords", []))
     hebrew = list(cfg.get("excluded_title_keywords_he", []))
-    if int(cfg.get("max_yoe", 2)) <= 2:
-        english += list(cfg.get("seniority_reject_keywords", []))
-        hebrew += list(cfg.get("seniority_reject_keywords_he", []))
+    # The profile's seniority list is always applied: a profile with a wider YOE range simply lists fewer words.
+    english += list(cfg.get("seniority_reject_keywords", []))
+    hebrew += list(cfg.get("seniority_reject_keywords_he", []))
     return build_keyword_regex(english, hebrew)
 
 
@@ -329,9 +340,8 @@ class ProfileTitleFilter:
         self.reject = build_reject_title_regex(cfg)
         self.candidate = build_candidate_title_regex(cfg)
         self.override = build_override_title_regex(cfg)
-        seniority = build_keyword_regex(cfg.get("seniority_reject_keywords", []) if int(cfg.get("max_yoe", 2)) <= 2 else [],
-                                        cfg.get("seniority_reject_keywords_he", []) if int(cfg.get("max_yoe", 2)) <= 2 else [])
-        self.seniority = seniority
+        self.seniority = build_keyword_regex(cfg.get("seniority_reject_keywords", []),
+                                             cfg.get("seniority_reject_keywords_he", []))
 
     def matches(self, title):
         t = re.sub(r"\s+", " ", title or "").strip()
@@ -417,9 +427,10 @@ def location_verdict(company_name, loc_text):
         return "reject"
     if is_location_exempt(company_name) or not RESTRICT_TO_ALLOWED_CITIES:
         return "ok" if in_israel else "unknown"
-    if ALLOWED_CITY_REGEX.search(loc):
+    city_text = TEL_AVIV_DISTRICT_REGEX.sub(" ", loc)
+    if ALLOWED_CITY_REGEX.search(city_text):
         return "ok"
-    if OTHER_ISRAEL_CITY_REGEX.search(loc):
+    if OTHER_ISRAEL_CITY_REGEX.search(city_text):
         return "reject"
     return "unknown"
 
@@ -1145,8 +1156,8 @@ def batch_verify_jobs_with_ai(jobs_batch):
         if exempt or not RESTRICT_TO_ALLOWED_CITIES:
             loc_rule = f"ANYWHERE IN {TARGET_LOCATION.upper()} (any Israeli city is fine)"
         else:
-            loc_rule = (f"GUSH DAN / CENTRAL ISRAEL ONLY ({allowed_cities_str}). Reject Haifa, Jerusalem, Yokneam, "
-                        "Beer Sheva, Netanya, the North, the South, etc.")
+            loc_rule = (f"ONLY THESE CITIES: {allowed_cities_str}. Reject any other Israeli city (e.g. Haifa, Jerusalem, "
+                        "Yokneam, Beer Sheva, Netanya, and any city not in that list).")
         items_text.append(
             f"=== Job #{idx} ===\n"
             f"Company / Source: {j['company']}\n"
@@ -1159,6 +1170,13 @@ def batch_verify_jobs_with_ai(jobs_batch):
 
     candidate_desc = USER_CONFIG.get("description") or f"a candidate looking for: {target_roles_str}"
     role_guidance = USER_CONFIG.get("ai_role_guidance", "")
+    if max_yoe <= 2:
+        stretch_def = "stretch_2_plus = minimum exactly 2 years"
+        senior_def = "senior = minimum 3+ years, or senior/lead/managing a team"
+    else:
+        stretch_def = f"stretch_2_plus = minimum of 2 to {max_yoe} years"
+        senior_def = (f"senior = minimum {max_yoe + 1}+ years, or a people-management role (team lead / head of / director / "
+                      f"VP). A 'Senior' title alone is NOT senior: judge by the stated years")
     prompt = (
         f"You are an expert hiring validator. The candidate profile is: {candidate_desc}\n"
         "Carefully read the FULL text of each job posting below (English or Hebrew), paying close attention to the "
@@ -1176,11 +1194,11 @@ def batch_verify_jobs_with_ai(jobs_batch):
         f"3. Experience Level (is_matching_yoe) - target {min_yoe}-{max_yoe} years ({student_clause}):\n"
         f"   - Classify experience_level as exactly one of: {', '.join(ji.EXPERIENCE_LEVELS)}.\n"
         "     explicit_student = student/intern position; explicit_junior = says junior/graduate/entry-level/no experience; "
-        f"explicit_0_2 = states a minimum of 0-1 years or 'up to 2 years'; stretch_2_plus = minimum exactly 2 years; "
-        "unspecified = the text does NOT state any experience requirement; senior = minimum 3+ years, or senior/lead/managing a team.\n"
+        f"explicit_0_2 = states a minimum of 0-1 years or 'up to 2 years'; {stretch_def}; "
+        f"unspecified = the text does NOT state any experience requirement; {senior_def}.\n"
         "   - Quote the exact phrase you relied on in experience_evidence ('' when unspecified). NEVER infer 0-2 from silence.\n"
         f"   - is_matching_yoe is TRUE for explicit_student, explicit_junior, explicit_0_2, stretch_2_plus and unspecified; "
-        f"FALSE only for senior (minimum >= {max_yoe + 1} years or clearly senior/managerial).\n\n"
+        f"FALSE only for senior (minimum >= {max_yoe + 1} years or clearly managerial).\n\n"
         "4. Target Location (is_matching_location):\n"
         "   - Apply the 'Location rule for this job' given with each posting. Hybrid/remote within Israel is fine.\n"
         f"   - STRICTLY REJECT positions located outside {TARGET_LOCATION} (or with (m/f/d)).\n"
@@ -1372,7 +1390,8 @@ def build_entry(job, ev):
     location = ev.get("detected_city") or job.get("page_location") or TARGET_LOCATION
     level = ev.get("experience_level") if ev.get("experience_level") in ji.EXPERIENCE_LEVELS else None
     evidence = ev.get("experience_evidence") or ""
-    det_level, det_evidence = ji.parse_experience_requirement(job["title"], job.get("requirements_text", ""))
+    det_level, det_evidence = ji.parse_experience_requirement(job["title"], job.get("requirements_text", ""),
+                                                            max_yoe=int(USER_CONFIG.get("max_yoe", 2)))
     # The AI may miss an explicit marker (e.g. "Student Position" in the title); explicit evidence beats 'unspecified'.
     if not level or (level == "unspecified" and det_level != "unspecified"):
         level, evidence = det_level, det_evidence
@@ -1418,7 +1437,8 @@ def build_entry(job, ev):
         "priority": job.get("priority"),
         "sector": job.get("sector"),
         "match_score": ji.match_score(role_match, level, loc_token, job.get("priority"), skills_fit, 1.0,
-                                      USER_CONFIG.get("ranking_weights"), allowed_location_tokens()),
+                                      USER_CONFIG.get("ranking_weights"), allowed_location_tokens(),
+                                      eligibility_points=USER_CONFIG.get("eligibility_points")),
     }
 
 

@@ -702,7 +702,7 @@
         </div>
         <div>
           <div class="brand-title">Israel Business &amp; Tech Jobs</div>
-          <div class="brand-subtitle">מוצר, פרויקטים, תפעול, אנליזה וייעוץ – לבוגרי הנדסת תעשייה וניהול (0–2 שנות ניסיון)</div>
+          <div class="brand-subtitle">תפעול, פרויקטים, מוצר, אנליזה ו-Customer Success – הנדסת תעשייה וניהול (עד 4 שנות ניסיון)</div>
         </div>
       </div>
 
@@ -814,13 +814,16 @@
           <option value="customer_success">Customer Success / TAM</option>
           <option value="business_development">פיתוח עסקי / שותפויות</option>
           <option value="consulting">ייעוץ</option>
+          <option value="data_analytics">דאטה / BI</option>
+          <option value="finance">פיננסים / FP&amp;A</option>
+          <option value="business_systems">מערכות עסקיות / אוטומציה</option>
           <option value="student">סטודנט / בוגר / Junior</option>
         </select>
 
         <select id="expFilter" class="filter-select" title="רמת ניסיון">
           <option value="all">כל רמות הניסיון</option>
           <option value="eligible">סטודנט / ג'וניור / 0–2 בלבד</option>
-          <option value="eligible_stretch">כולל 2+ (גבולי)</option>
+          <option value="eligible_stretch">עד 4 שנים (כולל 2+)</option>
           <option value="unspecified">רק "לא צוין"</option>
         </select>
 
@@ -978,7 +981,7 @@
     let ACTIVE_PROFILE = null;
     const EXP_LABELS = {
       explicit_student: 'סטודנט / מתמחה', explicit_junior: "ג'וניור / בוגר", explicit_0_2: '0–2 שנים',
-      stretch_2_plus: '2+ (גבולי)', unspecified: 'לא צוין', senior: 'בכיר'
+      stretch_2_plus: '2+ שנים', unspecified: 'לא צוין', senior: 'בכיר'
     };
     const STATUS_LABELS = { duplicate: 'כפולה', quarantined: 'מוסתרת' };
 
@@ -1031,6 +1034,9 @@
       customer_success: ['customer success', 'technical account', 'הצלחת לקוחות'],
       business_development: ['business development', 'partnership', 'bdr', 'פיתוח עסקי', 'שותפויות'],
       consulting: ['consult', 'advisory', 'יועץ', 'יועצת', 'ייעוץ', 'יעוץ'],
+      data_analytics: ['data analyst', 'bi analyst', 'business intelligence', 'analytics', 'ניתוח נתונים'],
+      finance: ['financial analyst', 'fp&a', 'pricing', 'billing', 'finops', 'כלכלן', 'כלכלנית', 'תמחור'],
+      business_systems: ['salesforce', 'crm', 'netsuite', 'business systems', 'business applications', 'automation', 'no-code', 'אוטומציה'],
       student: ['student', 'intern', 'graduate', 'junior', 'entry level', 'associate', 'סטודנט', 'בוגר', "ג'וניור"]
     };
 

@@ -12,11 +12,11 @@ def _profile(name):
     return jc.resolve_profile(jc.RAW_CONFIG, name)[1]
 
 
-def test_config_is_valid_and_iem_is_active():
+def test_config_is_valid_and_saas_ops_is_active():
     with open(os.path.join(ROOT, "config.json"), encoding="utf-8") as f:
         cfg = json.load(f)
-    assert cfg["active_profile"] == "iem_product_operations"
-    assert set(cfg["profiles"]) >= {"iem_product_operations", "software_engineering"}
+    assert cfg["active_profile"] == "iem_saas_ops"
+    assert set(cfg["profiles"]) >= {"iem_saas_ops", "iem_product_operations", "software_engineering"}
 
 
 def test_software_profile_is_preserved_exactly():
@@ -49,13 +49,21 @@ def test_iem_profile_title_filter(title, expected):
 
 @pytest.mark.parametrize("company,loc,verdict", [
     ("Experis Israel", "Netanya, Center District, Israel", "reject"),   # 'Center District' must not whitelist Netanya
-    ("CloudZone", "Tel Aviv District, Israel", "ok"),
+    ("CloudZone", "Tel Aviv District, Israel", "unknown"),             # a region, not the city: decided by the AI
+    ("CloudZone", "Tel Aviv-Yafo, Tel Aviv District, Israel", "ok"),
+    ("Some Startup", "Holon, Tel Aviv District, Israel", "reject"),     # the district must not whitelist Holon
+    ("Some Startup", "Ramat Gan, Israel", "ok"),
+    ("Some Startup", "בני ברק", "ok"),
+    ("Some Startup", "Givatayim", "ok"),
+    ("Some Startup", "Herzliya Pituach, Israel", "ok"),
+    ("Some Startup", "Petah Tikva, Center District, Israel", "reject"),
+    ("Some Startup", "Ramat HaSharon", "reject"),
     ("Some Startup", "Jerusalem, Israel", "reject"),
     ("Some Startup", "Center District, Israel", "unknown"),            # decided by the AI with the job text
-    ("Nvidia", "Yokneam, Northern District, Israel", "ok"),            # leading company: anywhere in Israel
+    ("Nvidia", "Yokneam, Northern District, Israel", "reject"),        # no location-exempt companies in this profile
     ("Some Startup", "London, United Kingdom", "reject"),
 ])
-def test_iem_location_policy(company, loc, verdict):
+def test_active_profile_location_policy(company, loc, verdict):
     assert jc.location_verdict(company, loc) == verdict
 
 
@@ -105,7 +113,7 @@ def test_build_entry_keeps_legacy_contract_and_labels_unspecified():
                              "detected_city": "Tel Aviv"})
     for f in ("company", "title", "location", "url", "experience", "discovered_at", "referral_contact", "referral_type"):
         assert f in e
-    assert e["status"] == "active" and e["profiles"] == ["iem_product_operations"]
+    assert e["status"] == "active" and e["profiles"] == ["iem_saas_ops"]
     assert e["job_key"].startswith("ats:ashby:")
     e2 = jc.build_entry(dict(job, title="Business Analyst"), {"approved": True})
     assert e2["experience_level"] == "unspecified"
@@ -114,8 +122,9 @@ def test_build_entry_keeps_legacy_contract_and_labels_unspecified():
 
 @pytest.mark.parametrize("company,excluded", [
     ("Bank Leumi", True), ("Bank Hapoalim", True), ("Israel Discount Bank", True), ("One Zero Bank", True),
-    ("Mizrahi Tefahot", True), ("בנק לאומי", True), ("Elbit Systems", True), ("Israel Aerospace Industries (IAI)", True),
-    ("Rafael Advanced Defense Systems", True), ("אלביט מערכות", True), ("Leidos", True), ("DRS RADA Technologies", True),
+    ("Mizrahi Tefahot", True), ("בנק לאומי", True),
+    # defense companies are NOT excluded in the active profile (only banks)
+    ("Elbit Systems", False), ("Rafael Advanced Defense Systems", False),
     # must NOT be excluded (substring traps)
     ("Unit", False), ("Isracard", False), ("Bankai Labs", False), ("Raday", False), ("Cymotive Technologies", False),
     ("Wix", False), ("Payoneer", False), ("Melio", False), ("Leumit Health Services", False),
@@ -125,7 +134,7 @@ def test_excluded_companies(company, excluded):
 
 
 def test_excluded_company_candidates_never_reach_ai():
-    cands = [_cand("Elbit Systems", "Project Coordinator", "https://www.linkedin.com/jobs/view/4400000001"),
+    cands = [_cand("Bank Leumi", "Project Coordinator", "https://www.linkedin.com/jobs/view/4400000001"),
              _cand("Bank Hapoalim", "Business Analyst", "https://www.linkedin.com/jobs/view/4400000002"),
              _cand("Wix", "Business Analyst", "https://www.linkedin.com/jobs/view/4400000003")]
     new, skipped = jc.select_new_candidates(cands, {}, set(), {"entries": {}}, 14)
@@ -169,3 +178,56 @@ def test_gemini_preflight_stops_on_bad_key(monkeypatch):
     monkeypatch.setattr(jc, "GEMINI_API_KEY", "bad")
     with pytest.raises(SystemExit):
         jc.test_gemini_preflight()
+
+
+# --- iem_saas_ops: wide IEM + SaaS-operations search, up to 4 years ---
+
+@pytest.mark.parametrize("title,expected", [
+    ("Operations Analyst", True),
+    ("Senior Operations Analyst", True),          # 'Senior' alone is allowed (2-4 YOE); the AI judges the stated years
+    ("Revenue Operations Manager", True),
+    ("Chief of Staff", True),
+    ("Customer Success Manager", True),
+    ("Data Analyst", True),
+    ("FP&A Analyst", True),
+    ("Salesforce Administrator", True),
+    ("Support Operations Specialist", True),
+    ("Marketing Operations Manager", True),
+    ("מנהל/ת תפעול", True),
+    ("Head of Operations", False),
+    ("Director of Business Operations", False),
+    ("Operations Team Lead", False),
+    ("SDR", False),
+    ("Product Marketing Manager", False),
+    ("Technical Support Engineer", False),
+    ("Backend Developer", False),
+    ("רכז/ת פרויקטים לבנק מוביל", False),
+])
+def test_saas_ops_title_filter(title, expected):
+    assert jc.ProfileTitleFilter(_profile("iem_saas_ops")).matches(title) is expected
+
+
+@pytest.mark.parametrize("text,level", [
+    ("Requirements: 3-4 years of experience in operations", "stretch_2_plus"),
+    ("At least 4 years of experience", "stretch_2_plus"),
+    ("5+ years of experience", "senior"),
+    ("1-2 years of experience", "explicit_0_2"),
+])
+def test_experience_range_follows_max_yoe(text, level):
+    assert ji.parse_experience_requirement("Operations Analyst", text, max_yoe=4)[0] == level
+    # the default (0-2) behaviour is unchanged
+    if level == "stretch_2_plus" and "4 years" in text:
+        assert ji.parse_experience_requirement("Operations Analyst", text)[0] == "senior"
+
+
+def test_senior_title_is_not_senior_when_range_reaches_4_years():
+    assert ji.parse_experience_requirement("Senior Operations Analyst", "", max_yoe=4)[0] == "unspecified"
+    assert ji.parse_experience_requirement("Senior Operations Analyst", "")[0] == "senior"
+    assert ji.parse_experience_requirement("Head of Operations", "", max_yoe=4)[0] == "senior"
+
+
+def test_profile_eligibility_points_rank_2_plus_above_junior():
+    pts = _profile("iem_saas_ops")["eligibility_points"]
+    hi = ji.match_score(1.0, "stretch_2_plus", "tel aviv", None, 0.8, 1.0, None, {"tel aviv"}, eligibility_points=pts)
+    lo = ji.match_score(1.0, "explicit_student", "tel aviv", None, 0.8, 1.0, None, {"tel aviv"}, eligibility_points=pts)
+    assert hi > lo
