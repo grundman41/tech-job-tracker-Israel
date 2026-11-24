@@ -62,6 +62,21 @@
       "registry_name": "AppsFlyer"
     },
     {
+      "company": "Arbitrip",
+      "sector": "User priority",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Explicitly requested by the user.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [],
+      "company_key": "arbitrip",
+      "registry_name": "Arbitrip"
+    },
+    {
       "company": "Augury",
       "sector": "Mobility, Robotics & Industrial Tech",
       "priority": "P1",
@@ -142,6 +157,47 @@
       ],
       "company_key": "buildots",
       "registry_name": "Buildots"
+    },
+    {
+      "company": "Check Point",
+      "sector": "Cybersecurity, Cloud & Identity",
+      "priority": "P1",
+      "company_website_candidate": "https://www.checkpoint.com",
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
+      "target_job_titles": [
+        "Product Operations",
+        "Technical Project Coordinator",
+        "Solutions Engineer",
+        "Business Analyst",
+        "Implementation Specialist"
+      ],
+      "why_relevant": "Enterprise technology and implementation environments; junior accessibility varies.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [
+        "official current Israel presence",
+        "current Israel job location",
+        "ATS/careers URL",
+        "job-level entry criteria"
+      ],
+      "company_key": "checkpoint",
+      "registry_name": "Check Point"
+    },
+    {
+      "company": "Corma",
+      "sector": "User priority",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Explicitly requested by the user. Careers URL unknown - needs verification.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [],
+      "company_key": "corma",
+      "registry_name": null
     },
     {
       "company": "Doral Energy",
@@ -226,6 +282,21 @@
       ],
       "company_key": "enlightrenewableenergy",
       "registry_name": null
+    },
+    {
+      "company": "Faye",
+      "sector": "User priority",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Explicitly requested by the user.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [],
+      "company_key": "faye",
+      "registry_name": "Faye"
     },
     {
       "company": "Finout",
@@ -470,6 +541,21 @@
       "registry_name": "monday.com"
     },
     {
+      "company": "Navan Israel",
+      "sector": "User priority",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Explicitly requested by the user.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [],
+      "company_key": "navan",
+      "registry_name": "Navan Israel"
+    },
+    {
       "company": "Nofar Energy",
       "sector": "Renewables, Energy, Storage & Climate Infrastructure",
       "priority": "P1",
@@ -548,6 +634,47 @@
       ],
       "company_key": "papayaglobal",
       "registry_name": "Papaya Global"
+    },
+    {
+      "company": "Paragon",
+      "sector": "User priority",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Explicitly requested by the user.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [],
+      "company_key": "paragon",
+      "registry_name": "Paragon"
+    },
+    {
+      "company": "Payoneer",
+      "sector": "Fintech, Insurtech & Financial Operations",
+      "priority": "P1",
+      "company_website_candidate": "https://www.payoneer.com",
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
+      "target_job_titles": [
+        "Product Analyst",
+        "Business Operations Analyst",
+        "PMO Analyst",
+        "Implementation Specialist",
+        "Business Analyst"
+      ],
+      "why_relevant": "Quantitative decision-making, regulated processes, product operations and scale.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [
+        "official current Israel presence",
+        "current Israel job location",
+        "ATS/careers URL",
+        "job-level entry criteria"
+      ],
+      "company_key": "payoneer",
+      "registry_name": "Payoneer"
     },
     {
       "company": "Salesforce Israel",
@@ -841,6 +968,21 @@
       ],
       "company_key": "wix",
       "registry_name": "Wix"
+    },
+    {
+      "company": "Wonderful",
+      "sector": "User priority",
+      "priority": "P1",
+      "company_website_candidate": null,
+      "verified_careers_url": null,
+      "israel_presence_evidence_level": "user_specified",
+      "target_job_titles": [],
+      "why_relevant": "Explicitly requested by the user.",
+      "evidence_urls": [],
+      "verified_open_role": false,
+      "verification_required": [],
+      "company_key": "wonderful",
+      "registry_name": "Wonderful"
     },
     {
       "company": "Zencity",
@@ -1997,32 +2139,6 @@
       "registry_name": null
     },
     {
-      "company": "Payoneer",
-      "sector": "Fintech, Insurtech & Financial Operations",
-      "priority": "P2",
-      "company_website_candidate": "https://www.payoneer.com",
-      "verified_careers_url": null,
-      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
-      "target_job_titles": [
-        "Product Analyst",
-        "Business Operations Analyst",
-        "PMO Analyst",
-        "Implementation Specialist",
-        "Business Analyst"
-      ],
-      "why_relevant": "Quantitative decision-making, regulated processes, product operations and scale.",
-      "evidence_urls": [],
-      "verified_open_role": false,
-      "verification_required": [
-        "official current Israel presence",
-        "current Israel job location",
-        "ATS/careers URL",
-        "job-level entry criteria"
-      ],
-      "company_key": "payoneer",
-      "registry_name": "Payoneer"
-    },
-    {
       "company": "Personetics",
       "sector": "Fintech, Insurtech & Financial Operations",
       "priority": "P2",
@@ -2977,32 +3093,6 @@
       ],
       "company_key": "chakratec",
       "registry_name": null
-    },
-    {
-      "company": "Check Point",
-      "sector": "Cybersecurity, Cloud & Identity",
-      "priority": "P3",
-      "company_website_candidate": "https://www.checkpoint.com",
-      "verified_careers_url": null,
-      "israel_presence_evidence_level": "research_candidate_unverified_local_hiring",
-      "target_job_titles": [
-        "Product Operations",
-        "Technical Project Coordinator",
-        "Solutions Engineer",
-        "Business Analyst",
-        "Implementation Specialist"
-      ],
-      "why_relevant": "Enterprise technology and implementation environments; junior accessibility varies.",
-      "evidence_urls": [],
-      "verified_open_role": false,
-      "verification_required": [
-        "official current Israel presence",
-        "current Israel job location",
-        "ATS/careers URL",
-        "job-level entry criteria"
-      ],
-      "company_key": "checkpoint",
-      "registry_name": "Check Point"
     },
     {
       "company": "Cisco Israel",

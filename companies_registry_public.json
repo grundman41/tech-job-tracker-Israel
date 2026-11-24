@@ -5,6 +5,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Accenture Israel",
+    "career_url": "https://www.accenture.com/il-en/careers",
+    "category": "Consulting",
+    "ats": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
+  },
+  {
     "name": "adMaven",
     "career_url": "https://ad-maven.com/careers",
     "category": "Core Tech / R&D"
@@ -18,6 +24,12 @@
     "name": "AI21 Labs",
     "career_url": "https://www.ai21.com/careers/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Aidoc",
+    "career_url": "https://www.aidoc.com/about/careers/",
+    "category": "Healthtech AI",
+    "ats": "https://job-boards.greenhouse.io/aidocmedical"
   },
   {
     "name": "Akamai Technologies",
@@ -34,6 +46,126 @@
     "career_url": "https://allcloud.io/careers/?_gl=1*1ml028f*_up*MQ..&gclid=Cj0KCQjwlqTRBhCBARIsANrkrxi-r9lXNL7HBAMkHFbW-udh-MBqYMmOMQUHd8ZzZNCAG9DiCEG6HVoaAji-EALw_wcB&gbraid=0AAAAADRW_Gj0TLX6qBwy7JUJcXuKEleRE",
     "category": "Core Tech / R&D",
     "ats": "comeet-api:71.008:1785E0758A482F01785E01782F05E0"
+  },
+  {
+    "name": "AllJobs - Business Analyst",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Business%20Analyst"
+  },
+  {
+    "name": "AllJobs - Customer Success",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Customer%20Success"
+  },
+  {
+    "name": "AllJobs - Operations",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Operations"
+  },
+  {
+    "name": "AllJobs - PMO",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=PMO"
+  },
+  {
+    "name": "AllJobs - Product Manager",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Product%20Manager"
+  },
+  {
+    "name": "AllJobs - Solutions Engineer",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Solutions%20Engineer"
+  },
+  {
+    "name": "AllJobs - אנליסט עסקי",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%90%D7%A0%D7%9C%D7%99%D7%A1%D7%98%20%D7%A2%D7%A1%D7%A7%D7%99"
+  },
+  {
+    "name": "AllJobs - בוגר תעשייה וניהול",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%91%D7%95%D7%92%D7%A8%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C"
+  },
+  {
+    "name": "AllJobs - הנדסת תעשייה וניהול",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%94%D7%A0%D7%93%D7%A1%D7%AA%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C"
+  },
+  {
+    "name": "AllJobs - יועץ ארגוני",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%99%D7%95%D7%A2%D7%A5%20%D7%90%D7%A8%D7%92%D7%95%D7%A0%D7%99"
+  },
+  {
+    "name": "AllJobs - ייעוץ ניהולי",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%99%D7%99%D7%A2%D7%95%D7%A5%20%D7%A0%D7%99%D7%94%D7%95%D7%9C%D7%99"
+  },
+  {
+    "name": "AllJobs - מהנדס תעשייה וניהול",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%94%D7%A0%D7%93%D7%A1%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C"
+  },
+  {
+    "name": "AllJobs - מיישם מערכות",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%99%D7%99%D7%A9%D7%9D%20%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA"
+  },
+  {
+    "name": "AllJobs - מנהל מוצר",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%A0%D7%94%D7%9C%20%D7%9E%D7%95%D7%A6%D7%A8"
+  },
+  {
+    "name": "AllJobs - מנהל פרויקטים",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%A0%D7%94%D7%9C%20%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%D7%99%D7%9D"
+  },
+  {
+    "name": "AllJobs - פיתוח עסקי",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%A4%D7%99%D7%AA%D7%95%D7%97%20%D7%A2%D7%A1%D7%A7%D7%99"
+  },
+  {
+    "name": "AllJobs - שיפור תהליכים",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%A9%D7%99%D7%A4%D7%95%D7%A8%20%D7%AA%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D"
+  },
+  {
+    "name": "AllJobs - שרשרת אספקה",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%A9%D7%A8%D7%A9%D7%A8%D7%AA%20%D7%90%D7%A1%D7%A4%D7%A7%D7%94"
+  },
+  {
+    "name": "AllJobs - תכנון ובקרה",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%AA%D7%9B%D7%A0%D7%95%D7%9F%20%D7%95%D7%91%D7%A7%D7%A8%D7%94"
+  },
+  {
+    "name": "AllJobs - תפעול",
+    "display_name": "AllJobs",
+    "category": "Job Board",
+    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%AA%D7%A4%D7%A2%D7%95%D7%9C"
   },
   {
     "name": "Alpha Omega",
@@ -62,6 +194,11 @@
     "ats": "https://www.amazon.jobs/en/search?country=ISR"
   },
   {
+    "name": "Amdocs",
+    "career_url": "https://amdocs.wd3.myworkdayjobs.com/Amdocs",
+    "category": "Enterprise Software"
+  },
+  {
     "name": "Anodot",
     "career_url": "https://www.anodot.com/careers/",
     "category": "AI Analytics"
@@ -82,6 +219,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Applied Materials",
+    "career_url": "https://amat.wd1.myworkdayjobs.com/External",
+    "category": "Semiconductors / Global"
+  },
+  {
     "name": "AppsFlyer",
     "career_url": "https://careers.appsflyer.com/",
     "category": "Core Tech / R&D",
@@ -92,6 +234,11 @@
     "career_url": "https://www.aquasec.com/about-us/careers/",
     "category": "Cybersecurity",
     "ats": "comeet-api:91.001:191644966966644E194B3191644644"
+  },
+  {
+    "name": "Arbitrip",
+    "career_url": "https://arbitrip.com/careers/",
+    "category": "Core Tech / R&D"
   },
   {
     "name": "Ardom Telecomputing",
@@ -110,6 +257,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Artlist",
+    "career_url": "https://artlist.io/careers",
+    "category": "Creator Platform"
+  },
+  {
     "name": "Astrix Security",
     "career_url": "https://astrix.security/careers/",
     "category": "Core Tech / R&D"
@@ -124,6 +276,12 @@
     "name": "Atera",
     "career_url": "https://www.atera.com/careers/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Augury",
+    "career_url": "https://www.augury.com/careers/",
+    "category": "Industrial AI",
+    "ats": "https://job-boards.greenhouse.io/augury"
   },
   {
     "name": "Axonius",
@@ -168,6 +326,17 @@
     "ats": "https://jobs.lever.co/biocatch"
   },
   {
+    "name": "Bizzabo",
+    "career_url": "https://www.bizzabo.com/careers",
+    "category": "Events SaaS",
+    "ats": "https://www.comeet.com/jobs/bizzabo/A5.000"
+  },
+  {
+    "name": "Bluevine",
+    "career_url": "https://www.bluevine.com/careers",
+    "category": "Fintech"
+  },
+  {
     "name": "Bluevoyant",
     "career_url": "https://www.bluevoyant.com/company/careers",
     "category": "Core Tech / R&D"
@@ -187,6 +356,12 @@
     "career_url": "https://bridgewise.com/careers/",
     "category": "Core Tech / R&D",
     "ats": "https://www.comeet.com/jobs/bridgewise/F9.009"
+  },
+  {
+    "name": "Bringg",
+    "career_url": "https://www.bringg.com/careers/",
+    "category": "Logistics SaaS",
+    "ats": "https://job-boards.greenhouse.io/bringg"
   },
   {
     "name": "Bringup",
@@ -224,6 +399,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Camtek",
+    "career_url": "https://www.camtek.com/careers/",
+    "category": "Semiconductors"
+  },
+  {
     "name": "Capitolis",
     "career_url": "https://capitolis.com/careers/",
     "category": "Capital Markets SaaS",
@@ -244,6 +424,11 @@
     "name": "CBC ISRAEL",
     "career_url": "https://career.adamtotal.co.il/?token=4fiBEcF763Em2UKTVQ4OPb1hiX9SxJtoMHssWX",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Cellebrite",
+    "career_url": "https://cellebrite.com/en/about/careers/",
+    "category": "Digital Intelligence"
   },
   {
     "name": "ChargeAfter",
@@ -302,6 +487,11 @@
     "career_url": "https://connecteam.com/careers/",
     "category": "Core Tech / R&D",
     "ats": "https://job-boards.greenhouse.io/connecteam"
+  },
+  {
+    "name": "Coralogix",
+    "career_url": "https://coralogix.com/careers/",
+    "category": "Observability SaaS"
   },
   {
     "name": "Crazy Labs",
@@ -403,6 +593,48 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Drushim - Customer Success",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/Customer%20Success/"
+  },
+  {
+    "name": "Drushim - PMO",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/PMO/"
+  },
+  {
+    "name": "Drushim - אנליסט עסקי",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/%D7%90%D7%A0%D7%9C%D7%99%D7%A1%D7%98%20%D7%A2%D7%A1%D7%A7%D7%99/"
+  },
+  {
+    "name": "Drushim - מהנדס תעשייה וניהול",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C/"
+  },
+  {
+    "name": "Drushim - מנהל מוצר",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/%D7%9E%D7%A0%D7%94%D7%9C%20%D7%9E%D7%95%D7%A6%D7%A8/"
+  },
+  {
+    "name": "Drushim - מנהל פרויקטים",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/%D7%9E%D7%A0%D7%94%D7%9C%20%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%D7%99%D7%9D/"
+  },
+  {
+    "name": "Drushim - תפעול",
+    "display_name": "Drushim",
+    "category": "Job Board",
+    "career_url": "https://www.drushim.co.il/jobs/search/%D7%AA%D7%A4%D7%A2%D7%95%D7%9C/"
+  },
+  {
     "name": "duda",
     "career_url": "https://www.duda.co/careers?countrycode=IL",
     "category": "Core Tech / R&D",
@@ -450,6 +682,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Explorium",
+    "career_url": "https://www.explorium.ai/careers/",
+    "category": "Data / AI",
+    "ats": "https://www.comeet.com/jobs/explorium/B4.00E"
+  },
+  {
     "name": "Extreme",
     "career_url": "https://www.extreme.co.il/",
     "category": "Core Tech / R&D"
@@ -460,14 +698,31 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Fabric",
+    "career_url": "https://getfabric.com/careers/",
+    "category": "Warehouse Robotics / Ops"
+  },
+  {
     "name": "Facetrom",
     "career_url": "https://www.facetrom.com/careers",
+    "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Faye",
+    "career_url": "https://www.comeet.com/jobs/withfaye/87.00a",
+    "ats": "https://www.comeet.com/jobs/withfaye/87.00a",
     "category": "Core Tech / R&D"
   },
   {
     "name": "Fetcherr",
     "career_url": "https://www.fetcherr.io/career",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Fireblocks",
+    "career_url": "https://www.fireblocks.com/careers/",
+    "category": "Fintech / Crypto Infra",
+    "ats": "https://job-boards.greenhouse.io/fireblocks"
   },
   {
     "name": "Firefly",
@@ -490,6 +745,17 @@
     "career_url": "https://flextronics.wd1.myworkdayjobs.com/Careers?source=Flex_Career_Site",
     "category": "Core Tech / R&D",
     "ats": "https://flextronics.wd1.myworkdayjobs.com/Careers"
+  },
+  {
+    "name": "Forter",
+    "career_url": "https://www.forter.com/careers/",
+    "category": "Fintech / Fraud",
+    "ats": "https://job-boards.greenhouse.io/forter"
+  },
+  {
+    "name": "Freightos",
+    "career_url": "https://www.freightos.com/careers/",
+    "category": "Logistics Marketplace"
   },
   {
     "name": "Fullpath",
@@ -518,6 +784,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Gloat",
+    "career_url": "https://gloat.com/careers/",
+    "category": "HR Tech",
+    "ats": "comeet-api:E5.000:5E02340002F0017800234011A01780"
+  },
+  {
     "name": "Global-e",
     "career_url": "https://www.global-e.com/careers/",
     "category": "Core Tech / R&D"
@@ -532,6 +804,18 @@
     "name": "Google",
     "career_url": "https://www.google.com/about/careers/applications/jobs/results/?location=Israel",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Google (page 2)",
+    "display_name": "Google",
+    "career_url": "https://www.google.com/about/careers/applications/jobs/results/?location=Israel&page=2",
+    "category": "Big Tech / Global"
+  },
+  {
+    "name": "Google (page 3)",
+    "display_name": "Google",
+    "career_url": "https://www.google.com/about/careers/applications/jobs/results/?location=Israel&page=3",
+    "category": "Big Tech / Global"
   },
   {
     "name": "GotFriends",
@@ -599,6 +883,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Hippo",
+    "career_url": "https://www.hippo.com/careers",
+    "category": "Insurtech",
+    "ats": "https://job-boards.greenhouse.io/hippo70"
+  },
+  {
     "name": "HMS - Halperin Consulting Group",
     "career_url": "https://hms.co.il/careers/",
     "category": "Core Tech / R&D"
@@ -615,9 +905,19 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "HP Indigo",
+    "career_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
+    "category": "Industrial / Global"
+  },
+  {
     "name": "Humanz",
     "career_url": "https://www.humanz.com/careers/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Hunters",
+    "career_url": "https://www.hunters.security/careers",
+    "category": "Cybersecurity"
   },
   {
     "name": "Hyro",
@@ -635,9 +935,20 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Imagry",
+    "career_url": "https://imagry.co/careers/",
+    "category": "Automotive AI",
+    "ats": "comeet-api:B7.00F:7BF2E7A1EFC1EFCF7E7BF36393DF826BB2E7A"
+  },
+  {
     "name": "inManage",
     "career_url": "https://www.inmanage.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Innoviz",
+    "career_url": "https://innoviz.tech/careers",
+    "category": "Automotive Tech"
   },
   {
     "name": "intel",
@@ -673,6 +984,11 @@
     "ats": "https://job-boards.greenhouse.io/island"
   },
   {
+    "name": "Isracard",
+    "career_url": "https://www.isracard.co.il/career",
+    "category": "Fintech / Credit"
+  },
+  {
     "name": "Jedify",
     "career_url": "https://jedify.com/careers/",
     "category": "Core Tech / R&D"
@@ -705,6 +1021,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Justt",
+    "career_url": "https://justt.ai/careers/",
+    "category": "Fintech"
+  },
+  {
     "name": "Kaltura",
     "career_url": "https://corp.kaltura.com/company/careers/",
     "category": "Core Tech / R&D"
@@ -716,9 +1037,19 @@
     "ats": "comeet-api:49.00E:94E412201BEA2538053BE2E8653BE4122"
   },
   {
+    "name": "KLA",
+    "career_url": "https://kla.wd1.myworkdayjobs.com/Search",
+    "category": "Semiconductors / Global"
+  },
+  {
     "name": "Komodor",
     "career_url": "https://komodor.com/careers/",
     "category": "Kubernetes Operations"
+  },
+  {
+    "name": "Kornit Digital",
+    "career_url": "https://www.kornit.com/careers/",
+    "category": "Industrial Tech"
   },
   {
     "name": "KPMG",
@@ -776,6 +1107,11 @@
     "career_url": "https://lumenis.com/about/careers/",
     "category": "Core Tech / R&D",
     "ats": "comeet-api:A1.00C:1AC6B0A08F0C6B085C85CD60F0C1AC"
+  },
+  {
+    "name": "Lusha",
+    "career_url": "https://www.lusha.com/careers/",
+    "category": "Sales Intelligence SaaS"
   },
   {
     "name": "M:AD",
@@ -880,6 +1216,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Mixtiles",
+    "career_url": "https://www.mixtiles.com/careers",
+    "category": "Consumer E-commerce",
+    "ats": "https://job-boards.greenhouse.io/mixtiles"
+  },
+  {
     "name": "Mobileye",
     "career_url": "https://careers.mobileye.com/jobs",
     "category": "Core Tech / R&D",
@@ -895,6 +1237,12 @@
     "career_url": "https://www.moonactive.com/careers/",
     "category": "Core Tech / R&D",
     "ats": "https://jobs.ashbyhq.com/moonactive"
+  },
+  {
+    "name": "Moovit",
+    "career_url": "https://moovit.com/careers/",
+    "category": "Mobility",
+    "ats": "comeet-api:63.007:36711036CE11031E9F146A1B38367A356CE"
   },
   {
     "name": "morning (Green Invoice)",
@@ -937,6 +1285,11 @@
     "career_url": "https://www.naturalint.com/jobs/co/tel-aviv/4B",
     "category": "Core Tech / R&D",
     "ats": "comeet-api:71.001:1715C47357355C45C4A17CF9CF9735"
+  },
+  {
+    "name": "Navan Israel",
+    "career_url": "https://navan.com/careers",
+    "category": "Travel / Spend SaaS"
   },
   {
     "name": "Navina",
@@ -998,6 +1351,11 @@
     "category": "Cybersecurity"
   },
   {
+    "name": "Nova",
+    "career_url": "https://www.novami.com/careers/",
+    "category": "Semiconductors"
+  },
+  {
     "name": "Novu",
     "career_url": "https://novu.co/careers/",
     "category": "Open Source Notifications"
@@ -1006,6 +1364,11 @@
     "name": "nsKnox",
     "career_url": "https://nsknox.net/career/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Nuvei Israel",
+    "career_url": "https://nuvei.com/careers/",
+    "category": "Payments"
   },
   {
     "name": "Nvidia",
@@ -1018,6 +1381,12 @@
     "career_url": "https://www.oasis.security/careers",
     "category": "Cybersecurity",
     "ats": "https://job-boards.greenhouse.io/oasissecurity"
+  },
+  {
+    "name": "Obligo",
+    "career_url": "https://www.myobligo.com/careers",
+    "category": "Proptech / Fintech",
+    "ats": "https://job-boards.greenhouse.io/obligo"
   },
   {
     "name": "OMC cloud",
@@ -1033,6 +1402,11 @@
     "name": "opisoft",
     "career_url": "https://opisoft.com/job/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Optibus",
+    "career_url": "https://www.optibus.com/careers/",
+    "category": "Mobility / Operations SaaS"
   },
   {
     "name": "Optimove",
@@ -1105,6 +1479,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Paragon",
+    "career_url": "https://www.comeet.com/jobs/paragon/76.006",
+    "ats": "https://www.comeet.com/jobs/paragon/76.006",
+    "category": "Core Tech / R&D"
+  },
+  {
     "name": "Partner company",
     "career_url": "https://www.linkedin.com/company/partner-israel/jobs/",
     "category": "Core Tech / R&D"
@@ -1137,14 +1517,35 @@
     "ats": "comeet-api:C5.00D:5CD1D013435289B343501D012E682E68289B"
   },
   {
+    "name": "Perion",
+    "career_url": "https://www.perion.com/careers/",
+    "category": "AdTech"
+  },
+  {
     "name": "Permit.io",
     "career_url": "https://www.permit.io/careers",
     "category": "Authorization DevTools"
   },
   {
+    "name": "Personetics",
+    "career_url": "https://personetics.com/careers/",
+    "category": "Fintech AI",
+    "ats": "comeet-api:83.00A:38A11B2A9E018C60153C714A9E38A"
+  },
+  {
     "name": "philips",
     "career_url": "https://www.careers.philips.com/il/en",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Phoenix Insurance",
+    "career_url": "https://www.fnx.co.il/careers",
+    "category": "Insurance"
+  },
+  {
+    "name": "Pillar Security",
+    "career_url": "https://www.pillar.security/careers",
+    "category": "AI Security"
   },
   {
     "name": "Pinecone",
@@ -1180,6 +1581,11 @@
     "ats": "https://jobs.ashbyhq.com/pointfive"
   },
   {
+    "name": "Port",
+    "career_url": "https://www.getport.io/careers",
+    "category": "DevTools SaaS"
+  },
+  {
     "name": "Prelysis",
     "career_url": "https://prelysis.com/careers/",
     "category": "Core Tech / R&D"
@@ -1188,6 +1594,11 @@
     "name": "Prologic",
     "career_url": "https://www.prologic.co.il/High-tech-jobs",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "PwC Israel",
+    "career_url": "https://www.pwc.com/il/en/careers.html",
+    "category": "Consulting"
   },
   {
     "name": "Qualcomm Israel",
@@ -1236,6 +1647,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Rewire",
+    "career_url": "https://www.rewire.com/careers",
+    "category": "Fintech"
+  },
+  {
     "name": "Ribbon communications",
     "career_url": "https://ribboncommunications.com/company/careers",
     "category": "Core Tech / R&D",
@@ -1246,6 +1662,12 @@
     "career_url": "https://www.riskified.com/careers/",
     "category": "Fintech / E-Commerce",
     "ats": "https://job-boards.greenhouse.io/riskified"
+  },
+  {
+    "name": "Riverside",
+    "career_url": "https://riverside.fm/careers",
+    "category": "Creator SaaS",
+    "ats": "https://www.comeet.com/jobs/riverside-fm/66.009"
   },
   {
     "name": "Rony Come",
@@ -1277,6 +1699,11 @@
     "name": "SAP Israel",
     "career_url": "https://jobs.sap.com/search/?q=Israel",
     "category": "Enterprise Cloud & Portal"
+  },
+  {
+    "name": "Sapiens",
+    "career_url": "https://sapiens.com/careers/",
+    "category": "Insurtech Software"
   },
   {
     "name": "SB0",
@@ -1326,6 +1753,11 @@
     "ats": "https://jobs.ashbyhq.com/Sierra"
   },
   {
+    "name": "Silk",
+    "career_url": "https://silk.us/careers/",
+    "category": "Cloud Data"
+  },
+  {
     "name": "Silverfort",
     "career_url": "https://www.silverfort.com/careers/",
     "category": "Cybersecurity",
@@ -1359,6 +1791,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "SolarEdge",
+    "career_url": "https://corporate.solaredge.com/en/careers",
+    "category": "Energy / Manufacturing"
+  },
+  {
     "name": "Sony Semiconductor Israel",
     "career_url": "https://www.sony-semicon.com/en/company/careers.html",
     "category": "Cellular IoT / Chipsets"
@@ -1369,9 +1806,36 @@
     "category": "Analytics Processor"
   },
   {
+    "name": "Spines",
+    "career_url": "https://spines.com/careers",
+    "category": "Publishing Tech",
+    "ats": "https://www.comeet.com/jobs/spines/2B.001"
+  },
+  {
+    "name": "Stampli",
+    "career_url": "https://www.stampli.com/careers/",
+    "category": "Fintech",
+    "ats": "comeet-api:F6.007:6F729CADEE3EAF06F71BDC29CA22D314E5"
+  },
+  {
+    "name": "Stratasys",
+    "career_url": "https://careers.stratasys.com/",
+    "category": "Industrial Tech"
+  },
+  {
+    "name": "Strauss Group",
+    "career_url": "https://www.strauss-group.co.il/careers/",
+    "category": "Food Manufacturing"
+  },
+  {
     "name": "Sunbit",
     "career_url": "https://sunbit.com/careers/",
     "category": "Fintech / BNPL"
+  },
+  {
+    "name": "Superplay",
+    "career_url": "https://www.superplay.co/careers",
+    "category": "Mobile Gaming"
   },
   {
     "name": "SVT.jobs",
@@ -1399,6 +1863,11 @@
     "name": "Synopsys Israel",
     "career_url": "https://synopsys.wd1.myworkdayjobs.com/Synopsys_Careers",
     "category": "EDA & Semiconductor IP"
+  },
+  {
+    "name": "Tabit",
+    "career_url": "https://www.tabit.cloud/careers",
+    "category": "Restaurant SaaS"
   },
   {
     "name": "Taboola",
@@ -1439,6 +1908,11 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Tel Aviv Stock Exchange",
+    "career_url": "https://www.tase.co.il/en/content/about/careers",
+    "category": "Capital Markets"
+  },
+  {
     "name": "TeraCyte",
     "career_url": "https://www.teracyte.ai/careers",
     "category": "Core Tech / R&D"
@@ -1475,6 +1949,12 @@
     "category": "Core Tech / R&D"
   },
   {
+    "name": "Transmit Security",
+    "career_url": "https://transmitsecurity.com/careers",
+    "category": "Cybersecurity",
+    "ats": "https://job-boards.greenhouse.io/transmitsecurity"
+  },
+  {
     "name": "Tranzila",
     "career_url": "https://www.tranzila.com/careers/",
     "category": "Core Tech / R&D"
@@ -1495,6 +1975,22 @@
     "name": "TSG IT Advanced Systems",
     "career_url": "https://www.tsgitsystems.com/careers/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Tufin",
+    "career_url": "https://www.tufin.com/careers",
+    "category": "Cybersecurity"
+  },
+  {
+    "name": "TytoCare",
+    "career_url": "https://www.tytocare.com/careers/",
+    "category": "Healthtech"
+  },
+  {
+    "name": "Unframe",
+    "career_url": "https://www.unframe.ai/careers",
+    "category": "Enterprise AI",
+    "ats": "https://job-boards.greenhouse.io/unframe"
   },
   {
     "name": "Unilink Ltd",
@@ -1519,9 +2015,29 @@
     "ats": "comeet-api:49.004:94440DC0944094401BCC12882510"
   },
   {
+    "name": "Valens",
+    "career_url": "https://www.valens.com/careers/",
+    "category": "Semiconductors"
+  },
+  {
+    "name": "Varonis",
+    "career_url": "https://careers.varonis.com/",
+    "category": "Cybersecurity"
+  },
+  {
     "name": "VAST Data",
     "career_url": "https://www.vastdata.com/careers",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "vcita",
+    "career_url": "https://www.vcita.com/careers",
+    "category": "SMB SaaS"
+  },
+  {
+    "name": "Velocity",
+    "career_url": "https://www.velocity.tech/careers",
+    "category": "Fintech"
   },
   {
     "name": "Verint",
@@ -1569,6 +2085,11 @@
     "category": "Storage Solutions"
   },
   {
+    "name": "Wiliot",
+    "career_url": "https://www.wiliot.com/careers",
+    "category": "IoT"
+  },
+  {
     "name": "Wing Security",
     "career_url": "https://wing.security/careers",
     "category": "Cybersecurity"
@@ -1591,6 +2112,12 @@
     "ats": "https://job-boards.greenhouse.io/wolt"
   },
   {
+    "name": "Wonderful",
+    "career_url": "https://www.wonderful.ai/careers",
+    "category": "AI Agents",
+    "ats": "https://jobs.ashbyhq.com/wonderful"
+  },
+  {
     "name": "WSC Sports",
     "career_url": "https://wsc-sports.com/careers/",
     "category": "Core Tech / R&D"
@@ -1604,6 +2131,12 @@
     "name": "yael group",
     "career_url": "https://yaelgroup.com/jobs/",
     "category": "Core Tech / R&D"
+  },
+  {
+    "name": "Yotpo",
+    "career_url": "https://www.yotpo.com/careers/",
+    "category": "E-commerce SaaS",
+    "ats": "https://job-boards.greenhouse.io/yotpo"
   },
   {
     "name": "youcc",
@@ -1627,325 +2160,9 @@
     "category": "Core Tech / R&D"
   },
   {
-    "name": "Zota",
-    "career_url": "https://careers.zota.com/?_gl=1*1tn6389*_gcl_au*NDkyNTQ0NzY5LjE3NjgzODczNzQ.",
-    "category": "Core Tech / R&D"
-  },
-  {
-    "name": "חברת בינת bynet software",
-    "career_url": "https://www.bynet.co.il/career/",
-    "category": "Core Tech / R&D"
-  },
-  {
-    "name": "Google (page 2)",
-    "display_name": "Google",
-    "career_url": "https://www.google.com/about/careers/applications/jobs/results/?location=Israel&page=2",
-    "category": "Big Tech / Global"
-  },
-  {
-    "name": "Google (page 3)",
-    "display_name": "Google",
-    "career_url": "https://www.google.com/about/careers/applications/jobs/results/?location=Israel&page=3",
-    "category": "Big Tech / Global"
-  },
-  {
-    "name": "Applied Materials",
-    "career_url": "https://amat.wd1.myworkdayjobs.com/External",
-    "category": "Semiconductors / Global"
-  },
-  {
-    "name": "KLA",
-    "career_url": "https://kla.wd1.myworkdayjobs.com/Search",
-    "category": "Semiconductors / Global"
-  },
-  {
-    "name": "HP Indigo",
-    "career_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
-    "category": "Industrial / Global"
-  },
-  {
-    "name": "Amdocs",
-    "career_url": "https://amdocs.wd3.myworkdayjobs.com/Amdocs",
-    "category": "Enterprise Software"
-  },
-  {
-    "name": "Nova",
-    "career_url": "https://www.novami.com/careers/",
-    "category": "Semiconductors"
-  },
-  {
-    "name": "Camtek",
-    "career_url": "https://www.camtek.com/careers/",
-    "category": "Semiconductors"
-  },
-  {
-    "name": "Kornit Digital",
-    "career_url": "https://www.kornit.com/careers/",
-    "category": "Industrial Tech"
-  },
-  {
-    "name": "Stratasys",
-    "career_url": "https://careers.stratasys.com/",
-    "category": "Industrial Tech"
-  },
-  {
-    "name": "SolarEdge",
-    "career_url": "https://corporate.solaredge.com/en/careers",
-    "category": "Energy / Manufacturing"
-  },
-  {
-    "name": "Innoviz",
-    "career_url": "https://innoviz.tech/careers",
-    "category": "Automotive Tech"
-  },
-  {
-    "name": "Valens",
-    "career_url": "https://www.valens.com/careers/",
-    "category": "Semiconductors"
-  },
-  {
-    "name": "Strauss Group",
-    "career_url": "https://www.strauss-group.co.il/careers/",
-    "category": "Food Manufacturing"
-  },
-  {
-    "name": "ZIM",
-    "career_url": "https://www.zim.com/careers",
-    "category": "Logistics / Shipping"
-  },
-  {
-    "name": "PwC Israel",
-    "career_url": "https://www.pwc.com/il/en/careers.html",
-    "category": "Consulting"
-  },
-  {
-    "name": "Accenture Israel",
-    "career_url": "https://www.accenture.com/il-en/careers",
-    "category": "Consulting",
-    "ats": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
-  },
-  {
-    "name": "Isracard",
-    "career_url": "https://www.isracard.co.il/career",
-    "category": "Fintech / Credit"
-  },
-  {
-    "name": "Phoenix Insurance",
-    "career_url": "https://www.fnx.co.il/careers",
-    "category": "Insurance"
-  },
-  {
-    "name": "Tel Aviv Stock Exchange",
-    "career_url": "https://www.tase.co.il/en/content/about/careers",
-    "category": "Capital Markets"
-  },
-  {
-    "name": "Yotpo",
-    "career_url": "https://www.yotpo.com/careers/",
-    "category": "E-commerce SaaS",
-    "ats": "https://job-boards.greenhouse.io/yotpo"
-  },
-  {
-    "name": "Lusha",
-    "career_url": "https://www.lusha.com/careers/",
-    "category": "Sales Intelligence SaaS"
-  },
-  {
-    "name": "Bringg",
-    "career_url": "https://www.bringg.com/careers/",
-    "category": "Logistics SaaS",
-    "ats": "https://job-boards.greenhouse.io/bringg"
-  },
-  {
-    "name": "Personetics",
-    "career_url": "https://personetics.com/careers/",
-    "category": "Fintech AI",
-    "ats": "comeet-api:83.00A:38A11B2A9E018C60153C714A9E38A"
-  },
-  {
-    "name": "Forter",
-    "career_url": "https://www.forter.com/careers/",
-    "category": "Fintech / Fraud",
-    "ats": "https://job-boards.greenhouse.io/forter"
-  },
-  {
-    "name": "Hunters",
-    "career_url": "https://www.hunters.security/careers",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Transmit Security",
-    "career_url": "https://transmitsecurity.com/careers",
-    "category": "Cybersecurity",
-    "ats": "https://job-boards.greenhouse.io/transmitsecurity"
-  },
-  {
-    "name": "Optibus",
-    "career_url": "https://www.optibus.com/careers/",
-    "category": "Mobility / Operations SaaS"
-  },
-  {
-    "name": "Bizzabo",
-    "career_url": "https://www.bizzabo.com/careers",
-    "category": "Events SaaS",
-    "ats": "https://www.comeet.com/jobs/bizzabo/A5.000"
-  },
-  {
-    "name": "Explorium",
-    "career_url": "https://www.explorium.ai/careers/",
-    "category": "Data / AI",
-    "ats": "https://www.comeet.com/jobs/explorium/B4.00E"
-  },
-  {
-    "name": "Coralogix",
-    "career_url": "https://coralogix.com/careers/",
-    "category": "Observability SaaS"
-  },
-  {
-    "name": "Varonis",
-    "career_url": "https://careers.varonis.com/",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Sapiens",
-    "career_url": "https://sapiens.com/careers/",
-    "category": "Insurtech Software"
-  },
-  {
-    "name": "Augury",
-    "career_url": "https://www.augury.com/careers/",
-    "category": "Industrial AI",
-    "ats": "https://job-boards.greenhouse.io/augury"
-  },
-  {
-    "name": "Fabric",
-    "career_url": "https://getfabric.com/careers/",
-    "category": "Warehouse Robotics / Ops"
-  },
-  {
-    "name": "Freightos",
-    "career_url": "https://www.freightos.com/careers/",
-    "category": "Logistics Marketplace"
-  },
-  {
-    "name": "Justt",
-    "career_url": "https://justt.ai/careers/",
-    "category": "Fintech"
-  },
-  {
-    "name": "Port",
-    "career_url": "https://www.getport.io/careers",
-    "category": "DevTools SaaS"
-  },
-  {
-    "name": "Aidoc",
-    "career_url": "https://www.aidoc.com/about/careers/",
-    "category": "Healthtech AI",
-    "ats": "https://job-boards.greenhouse.io/aidocmedical"
-  },
-  {
-    "name": "TytoCare",
-    "career_url": "https://www.tytocare.com/careers/",
-    "category": "Healthtech"
-  },
-  {
-    "name": "Tufin",
-    "career_url": "https://www.tufin.com/careers",
-    "category": "Cybersecurity"
-  },
-  {
-    "name": "Gloat",
-    "career_url": "https://gloat.com/careers/",
-    "category": "HR Tech",
-    "ats": "comeet-api:E5.000:5E02340002F0017800234011A01780"
-  },
-  {
-    "name": "Fireblocks",
-    "career_url": "https://www.fireblocks.com/careers/",
-    "category": "Fintech / Crypto Infra",
-    "ats": "https://job-boards.greenhouse.io/fireblocks"
-  },
-  {
-    "name": "Cellebrite",
-    "career_url": "https://cellebrite.com/en/about/careers/",
-    "category": "Digital Intelligence"
-  },
-  {
-    "name": "Riverside",
-    "career_url": "https://riverside.fm/careers",
-    "category": "Creator SaaS",
-    "ats": "https://www.comeet.com/jobs/riverside-fm/66.009"
-  },
-  {
-    "name": "vcita",
-    "career_url": "https://www.vcita.com/careers",
-    "category": "SMB SaaS"
-  },
-  {
     "name": "Zencity",
     "career_url": "https://zencity.io/careers/",
     "category": "GovTech"
-  },
-  {
-    "name": "Moovit",
-    "career_url": "https://moovit.com/careers/",
-    "category": "Mobility",
-    "ats": "comeet-api:63.007:36711036CE11031E9F146A1B38367A356CE"
-  },
-  {
-    "name": "Artlist",
-    "career_url": "https://artlist.io/careers",
-    "category": "Creator Platform"
-  },
-  {
-    "name": "Superplay",
-    "career_url": "https://www.superplay.co/careers",
-    "category": "Mobile Gaming"
-  },
-  {
-    "name": "Bluevine",
-    "career_url": "https://www.bluevine.com/careers",
-    "category": "Fintech"
-  },
-  {
-    "name": "Mixtiles",
-    "career_url": "https://www.mixtiles.com/careers",
-    "category": "Consumer E-commerce",
-    "ats": "https://job-boards.greenhouse.io/mixtiles"
-  },
-  {
-    "name": "Hippo",
-    "career_url": "https://www.hippo.com/careers",
-    "category": "Insurtech",
-    "ats": "https://job-boards.greenhouse.io/hippo70"
-  },
-  {
-    "name": "Rewire",
-    "career_url": "https://www.rewire.com/careers",
-    "category": "Fintech"
-  },
-  {
-    "name": "Imagry",
-    "career_url": "https://imagry.co/careers/",
-    "category": "Automotive AI",
-    "ats": "comeet-api:B7.00F:7BF2E7A1EFC1EFCF7E7BF36393DF826BB2E7A"
-  },
-  {
-    "name": "Pillar Security",
-    "career_url": "https://www.pillar.security/careers",
-    "category": "AI Security"
-  },
-  {
-    "name": "Unframe",
-    "career_url": "https://www.unframe.ai/careers",
-    "category": "Enterprise AI",
-    "ats": "https://job-boards.greenhouse.io/unframe"
-  },
-  {
-    "name": "Wonderful",
-    "career_url": "https://www.wonderful.ai/careers",
-    "category": "AI Agents",
-    "ats": "https://jobs.ashbyhq.com/wonderful"
   },
   {
     "name": "Zesty",
@@ -1954,218 +2171,18 @@
     "ats": "comeet-api:06.000:600240001E00030003000300024001E00"
   },
   {
-    "name": "Obligo",
-    "career_url": "https://www.myobligo.com/careers",
-    "category": "Proptech / Fintech",
-    "ats": "https://job-boards.greenhouse.io/obligo"
+    "name": "ZIM",
+    "career_url": "https://www.zim.com/careers",
+    "category": "Logistics / Shipping"
   },
   {
-    "name": "Spines",
-    "career_url": "https://spines.com/careers",
-    "category": "Publishing Tech",
-    "ats": "https://www.comeet.com/jobs/spines/2B.001"
+    "name": "Zota",
+    "career_url": "https://careers.zota.com/?_gl=1*1tn6389*_gcl_au*NDkyNTQ0NzY5LjE3NjgzODczNzQ.",
+    "category": "Core Tech / R&D"
   },
   {
-    "name": "Nuvei Israel",
-    "career_url": "https://nuvei.com/careers/",
-    "category": "Payments"
-  },
-  {
-    "name": "Stampli",
-    "career_url": "https://www.stampli.com/careers/",
-    "category": "Fintech",
-    "ats": "comeet-api:F6.007:6F729CADEE3EAF06F71BDC29CA22D314E5"
-  },
-  {
-    "name": "Wiliot",
-    "career_url": "https://www.wiliot.com/careers",
-    "category": "IoT"
-  },
-  {
-    "name": "Silk",
-    "career_url": "https://silk.us/careers/",
-    "category": "Cloud Data"
-  },
-  {
-    "name": "Perion",
-    "career_url": "https://www.perion.com/careers/",
-    "category": "AdTech"
-  },
-  {
-    "name": "Navan Israel",
-    "career_url": "https://navan.com/careers",
-    "category": "Travel / Spend SaaS"
-  },
-  {
-    "name": "Tabit",
-    "career_url": "https://www.tabit.cloud/careers",
-    "category": "Restaurant SaaS"
-  },
-  {
-    "name": "Velocity",
-    "career_url": "https://www.velocity.tech/careers",
-    "category": "Fintech"
-  },
-  {
-    "name": "AllJobs - מהנדס תעשייה וניהול",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%94%D7%A0%D7%93%D7%A1%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C"
-  },
-  {
-    "name": "AllJobs - הנדסת תעשייה וניהול",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%94%D7%A0%D7%93%D7%A1%D7%AA%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C"
-  },
-  {
-    "name": "AllJobs - מנהל פרויקטים",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%A0%D7%94%D7%9C%20%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%D7%99%D7%9D"
-  },
-  {
-    "name": "AllJobs - PMO",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=PMO"
-  },
-  {
-    "name": "AllJobs - אנליסט עסקי",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%90%D7%A0%D7%9C%D7%99%D7%A1%D7%98%20%D7%A2%D7%A1%D7%A7%D7%99"
-  },
-  {
-    "name": "AllJobs - Business Analyst",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Business%20Analyst"
-  },
-  {
-    "name": "AllJobs - מנהל מוצר",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%A0%D7%94%D7%9C%20%D7%9E%D7%95%D7%A6%D7%A8"
-  },
-  {
-    "name": "AllJobs - Product Manager",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Product%20Manager"
-  },
-  {
-    "name": "AllJobs - Operations",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Operations"
-  },
-  {
-    "name": "AllJobs - תפעול",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%AA%D7%A4%D7%A2%D7%95%D7%9C"
-  },
-  {
-    "name": "AllJobs - Customer Success",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Customer%20Success"
-  },
-  {
-    "name": "AllJobs - יועץ ארגוני",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%99%D7%95%D7%A2%D7%A5%20%D7%90%D7%A8%D7%92%D7%95%D7%A0%D7%99"
-  },
-  {
-    "name": "AllJobs - ייעוץ ניהולי",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%99%D7%99%D7%A2%D7%95%D7%A5%20%D7%A0%D7%99%D7%94%D7%95%D7%9C%D7%99"
-  },
-  {
-    "name": "AllJobs - Solutions Engineer",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=Solutions%20Engineer"
-  },
-  {
-    "name": "AllJobs - שיפור תהליכים",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%A9%D7%99%D7%A4%D7%95%D7%A8%20%D7%AA%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D"
-  },
-  {
-    "name": "AllJobs - מיישם מערכות",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%9E%D7%99%D7%99%D7%A9%D7%9D%20%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA"
-  },
-  {
-    "name": "AllJobs - תכנון ובקרה",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%AA%D7%9B%D7%A0%D7%95%D7%9F%20%D7%95%D7%91%D7%A7%D7%A8%D7%94"
-  },
-  {
-    "name": "AllJobs - שרשרת אספקה",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%A9%D7%A8%D7%A9%D7%A8%D7%AA%20%D7%90%D7%A1%D7%A4%D7%A7%D7%94"
-  },
-  {
-    "name": "AllJobs - פיתוח עסקי",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%A4%D7%99%D7%AA%D7%95%D7%97%20%D7%A2%D7%A1%D7%A7%D7%99"
-  },
-  {
-    "name": "AllJobs - בוגר תעשייה וניהול",
-    "display_name": "AllJobs",
-    "category": "Job Board",
-    "career_url": "https://www.alljobs.co.il/SearchResultsGuest.aspx?page=1&position=&type=&freetxt=%D7%91%D7%95%D7%92%D7%A8%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C"
-  },
-  {
-    "name": "Drushim - מהנדס תעשייה וניהול",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/%D7%9E%D7%94%D7%A0%D7%93%D7%A1%20%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94%20%D7%95%D7%A0%D7%99%D7%94%D7%95%D7%9C/"
-  },
-  {
-    "name": "Drushim - מנהל פרויקטים",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/%D7%9E%D7%A0%D7%94%D7%9C%20%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98%D7%99%D7%9D/"
-  },
-  {
-    "name": "Drushim - PMO",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/PMO/"
-  },
-  {
-    "name": "Drushim - אנליסט עסקי",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/%D7%90%D7%A0%D7%9C%D7%99%D7%A1%D7%98%20%D7%A2%D7%A1%D7%A7%D7%99/"
-  },
-  {
-    "name": "Drushim - מנהל מוצר",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/%D7%9E%D7%A0%D7%94%D7%9C%20%D7%9E%D7%95%D7%A6%D7%A8/"
-  },
-  {
-    "name": "Drushim - Customer Success",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/Customer%20Success/"
-  },
-  {
-    "name": "Drushim - תפעול",
-    "display_name": "Drushim",
-    "category": "Job Board",
-    "career_url": "https://www.drushim.co.il/jobs/search/%D7%AA%D7%A4%D7%A2%D7%95%D7%9C/"
+    "name": "חברת בינת bynet software",
+    "career_url": "https://www.bynet.co.il/career/",
+    "category": "Core Tech / R&D"
   }
 ]
