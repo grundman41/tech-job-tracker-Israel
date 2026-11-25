@@ -184,7 +184,9 @@ def test_gemini_preflight_stops_on_bad_key(monkeypatch):
 
 @pytest.mark.parametrize("title,expected", [
     ("Operations Analyst", True),
-    ("Senior Operations Analyst", True),          # 'Senior' alone is allowed (2-4 YOE); the AI judges the stated years
+    ("Senior Operations Analyst", False),         # senior titles are rejected again, by the user's request
+    ("Sr. Technical Account Manager", False),
+    ("Customer Success Lead", False),
     ("Business Operations Manager", True),
     ("Customer Success Manager", True),
     ("Data Analyst", True),
@@ -218,6 +220,8 @@ def test_experience_range_follows_max_yoe(text, level):
 
 
 def test_senior_title_is_not_senior_when_range_reaches_4_years():
+    # The YOE classifier is deliberately permissive above 2 years; the profile's title filter is what
+    # rejects senior titles (see test_saas_ops_title_filter).
     assert ji.parse_experience_requirement("Senior Operations Analyst", "", max_yoe=4)[0] == "unspecified"
     assert ji.parse_experience_requirement("Senior Operations Analyst", "")[0] == "senior"
     assert ji.parse_experience_requirement("Head of Operations", "", max_yoe=4)[0] == "senior"
@@ -283,3 +287,15 @@ def test_student_and_intern_roles_are_rejected(title):
 def test_employer_landing_pages_are_not_jobs(url):
     assert ji.classify_non_job("Technical Product Manager", url) == "company_profile_page"
     assert not jc.looks_like_job_url(url) if hasattr(jc, "looks_like_job_url") else True
+
+
+@pytest.mark.parametrize("title", [
+    "Program Manager (Fixed-Term Contract)",
+    "VIP Account Manager - Temporary for 9 months",
+    "Operations Specialist - Maternity Leave Cover",
+    "Business Analyst (Interim)",
+    "רכז/ת תפעול - משרה זמנית",
+    "אנליסט/ית - החלפה לחופשת לידה",
+])
+def test_temporary_positions_are_rejected(title):
+    assert not jc.ProfileTitleFilter(_profile("iem_saas_ops")).matches(title)

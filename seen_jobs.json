@@ -721,8 +721,10 @@
     "display_title": "Senior product manager",
     "raw_title": "Senior product manager",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "senior title (profile rejects senior)"
+    ],
     "duplicate_of": null,
     "experience_level": "stretch_2_plus",
     "experience_evidence": "4-6 years of product management experience",
@@ -756,8 +758,10 @@
     "display_title": "Senior Product Manager",
     "raw_title": "Senior Product Manager",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "senior title (profile rejects senior)"
+    ],
     "duplicate_of": null,
     "experience_level": "stretch_2_plus",
     "experience_evidence": "3+ years of experience in a Product Management role",
@@ -861,8 +865,10 @@
     "display_title": "Sr. Technical Account Manager (Israel), EMEA Startups",
     "raw_title": "Sr. Technical Account Manager (Israel), EMEA Startups",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "senior title (profile rejects senior)"
+    ],
     "duplicate_of": null,
     "experience_level": "unspecified",
     "experience_evidence": "",
@@ -1213,8 +1219,10 @@
     "display_title": "Program Manager, Third-Party Data Feeds, Waze and Geo (Fixed-Term Contract)",
     "raw_title": "Program Manager, Third-Party Data Feeds, Waze and Geo (Fixed-Term Contract)",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "temporary position"
+    ],
     "duplicate_of": null,
     "experience_level": "explicit_0_2",
     "experience_evidence": "2 years of experience in program or project management",
@@ -1563,8 +1571,10 @@
     "display_title": "VIP Account Manager – (Temporary for 9 months)",
     "raw_title": "VIP Account Manager – (Temporary for 9 months)",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "temporary position"
+    ],
     "duplicate_of": null,
     "experience_level": "explicit_0_2",
     "experience_evidence": "2 years of experience in a customer-facing role",
