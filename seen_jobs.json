@@ -404,8 +404,10 @@
     "display_title": "Customer Success Lead",
     "raw_title": "Customer Success Lead",
     "location_token": "tel aviv",
-    "status": "active",
-    "status_reasons": [],
+    "status": "quarantined",
+    "status_reasons": [
+      "senior title (profile rejects senior)"
+    ],
     "duplicate_of": null,
     "experience_level": "stretch_2_plus",
     "experience_evidence": "2+ years in Customer Success",
